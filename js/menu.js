@@ -7,10 +7,10 @@ jQuery(document).ready(function($){
 		var headerHeight = $('.box-header').height();
 		$(window).on('scroll',
 		{
-	        previousTop: 0
-	    }, 
-	    function () {
-		    var currentTop = $(window).scrollTop();
+			previousTop: 0
+		}, 
+		function () {
+			var currentTop = $(window).scrollTop();
 		    //check if user is scrolling up
 		    if (currentTop < this.previousTop ) {
 		    	//if scrolling up...
@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 	}
 
 	//open/close primary navigation
-	$('.box-primary-nav-trigger').on('click', function(){
+	$(document).on('click','.box-primary-nav-trigger', function(){
 		$('.box-menu-icon').toggleClass('is-clicked'); 
 		$('.box-header').toggleClass('menu-is-open');
 		
@@ -43,5 +43,11 @@ jQuery(document).ready(function($){
 				$('body').addClass('overflow-hidden');
 			});	
 		}
+
+		// Dinamycally highlight current section
+		var pathname = window.location.pathname.split('/')[1]
+		var navElem = $(document).find('a[href^="'+pathname+'"]');
+		navElem.addClass('actual');
+
 	});
 });
