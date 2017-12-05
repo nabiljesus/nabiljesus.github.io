@@ -60,12 +60,42 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "index2.html",
 			"settings":
 			{
 				"buffer_size": 11505,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3473,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Find References",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSyntax Highlighting for Sass\n----------------------------\n\n  Thank you very much for keeping using this package.\n  \n  I am so sorry for lacking care in this package for such a long period (almost three years). There were lots of issues I haven't had a chance to fix in the last version, most of them are about the auto-completion feature. It was my experiment to reduce noises if you have massive snippets and completions installed, and it's based on tweaking syntax scopes on both syntax definition files and built-in completions. But it may have a bad influence on some other snippets and completions. So I decided to completely remove this feature and re-write this package with the new Sublime Text 3 syntax definition format from scratch in order to purely forced on highlighting the syntax as accuracy as possible. Therefore, this package will be only working on Sublime Text 3 (>= build 3103).\n  \n  Here are the new features:\n  \n  1. Added support for CSS4 variables\n  2. Enhanced Sass map highlighting\n  3. Enhanced CSS functions and Sass functions highlighting\n  4. Enhanced Sass mixin/function name highlighting and their \"Goto Definition\" support\n  5. Removed the built-in completions\n  \n  Besides, the scopes have been changed a lot. Please take a look at https://github.com/P233/Syntax-highlighting-for-Sass#scopes-list\n  \n  If you have any issue or suggestion please open a new issue on GitHub.\n  \n  All the best,\n  Peiwen\n\n  \n  Thank you for using Syntax Highlighting for Sass.\n  \n  With over 80 improvements this package now works much better than ever! Here are some new features:\n  \n  ## Improved lots of highlighting rules and fully support Sass 3.3 syntax\n  \n  ## Built-in Completion Packages\n  \n      There are 8 built-in completion packages. Pick up the package name which you are not intend to use, then add it/them into the `ignored_packages` list of your settings file. (If you know a better way to do this please please let me know.)\n  \n      * SHS-At-Rule\n      * SHS-Bourbon\n      * SHS-Bourbon-Neat\n      * SHS-Compass-Mixins\n      * SHS-Compass-Variables\n      * SHS-CSS-Properties\n      * SHS-CSS-Property-Values\n      * SHS-Sass-Functions\n  \n  ## Smart Completion Rule\n  \n      1. Typing @-rule, ID, class, placeholder-selector, mixin name, function name, comment, and quoted content will never popup any completions.\n      2. ** When typing property values, property name and other completions will no longer popup.\n      3. Built-in mixin name completions will only popup directly behind `@include` or `+`.\n      4. Built-in variable compltions will only popup when you typing variables.\n  \n      ** The latest version of [Emmet CSS Snippets](https://sublime.wbond.net/packages/Emmet%20Css%20Snippets) now fully supports this feature. I recommend to use it instead of the built-in properties completion package.\n  \n  ## Improved support for Goto Symbol and Goto Definition features\n  \n  ## Comment Tag\n  \n      Use `{{` and `}}` to wrap a keyword inside comment, then this keyword (comment tag) will be indexed by the Goto Symbol and Goto Definition features.\n  \n  \n  \n  -------\n  For more details please check https://github.com/P233/Syntax-highlighting-for-Sass/\n  -------\n  \n  -------------\n  Enjoy coding!\n",
+			"settings":
+			{
+				"buffer_size": 3295,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
@@ -90,16 +120,7 @@
 			"file": "navbar.html",
 			"settings":
 			{
-				"buffer_size": 1463,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "about.html",
-			"settings":
-			{
-				"buffer_size": 5214,
+				"buffer_size": 1715,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -109,15 +130,6 @@
 			"settings":
 			{
 				"buffer_size": 25829,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "loader.html",
-			"settings":
-			{
-				"buffer_size": 393,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -166,8 +178,9 @@
 	],
 	"file_history":
 	[
-		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
+		"/home/nabil/projects/nabiljesus.github.io/loader.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/animated-headline.js",
+		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
 		"/home/nabil/projects/nabiljesus.github.io/js/menu.js",
 		"/home/nabil/projects/nabiljesus.github.io/footer.html",
 		"/home/nabil/projects/nabiljesus.github.io/LICENSE",
@@ -292,8 +305,7 @@
 		"/home/nabil/work/darient/darienconnect/management_reports/views.py",
 		"/home/nabil/work/darient/darienconnect/darienconnect/models.py",
 		"/home/nabil/work/darient/darienconnect/products/views.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/forms.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/templates/admin/edit_company.html"
+		"/home/nabil/work/darient/darienconnect/darienconnect/forms.py"
 	],
 	"find":
 	{
@@ -337,12 +349,12 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "index2.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -353,8 +365,8 @@
 						"selection":
 						[
 							[
-								648,
-								648
+								1162,
+								1162
 							]
 						],
 						"settings":
@@ -364,7 +376,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 52.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -372,6 +384,118 @@
 				},
 				{
 					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2839,
+								2839
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 122,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3295,
+								3295
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "portfolio.html",
 					"semi_transient": false,
 					"settings":
@@ -397,11 +521,11 @@
 						"translation.y": 2699.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "js/menu.js",
 					"semi_transient": false,
 					"settings":
@@ -426,24 +550,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1463,
+						"buffer_size": 1715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1335,
-								1335
+								448,
+								448
 							]
 						],
 						"settings":
@@ -456,48 +580,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "about.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 266,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
@@ -523,37 +610,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "loader.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -590,6 +647,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -857,9 +918,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dari",
+		"last_filter": "cw",
 		"selected_items":
 		[
+			[
+				"cw",
+				"~/darient/cw_app/cw_app.sublime-project"
+			],
 			[
 				"dari",
 				"~/work/darient/darienconnect/darienconnect.sublime-project"

@@ -997,6 +997,10 @@ footer img {
     text-align: center;
 }
 
+.middle-bar {
+    padding: 100px 0 100px;
+}
+
 .top-bar h1 {
     font-size: 60px;
     text-transform: uppercase;
@@ -1207,6 +1211,12 @@ textarea:focus {
 
 /* Responsive media queries
 ==================================================*/
+
+@media screen and (max-width: 475px){
+    .service-box{
+        padding-left: 3em;
+    }
+}
 
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
