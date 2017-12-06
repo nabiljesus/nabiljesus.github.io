@@ -1,7 +1,11 @@
 
 
-$(window).load(function () {
+$(document).ready(function () {
+
     $("#loader").load("loader.html"); 
+});
+
+$(window).load(function () {
     $("#navbar").load("navbar.html"); 
     $("#footer").load("footer.html"); 
     // preloader

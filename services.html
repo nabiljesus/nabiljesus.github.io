@@ -19,6 +19,7 @@
     <link href="fonts/linea/_basic/_ICONFONT/styles.css" rel="stylesheet">
     <link href="fonts/linea/_software/_ICONFONT/styles.css" rel="stylesheet">
     <link href="fonts/linea/_basic_elaboration/_ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/_arrows/_ICONFONT/styles.css" rel="stylesheet">
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
@@ -26,7 +27,22 @@
 
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
+    <script src="js/getDescription.js"></script>
 
+    <script type="text/javascript">
+
+    function showTool(elem){
+        $(".canvasText").fadeOut('fast', function(){
+            document.getElementById('ImgDiv').innerHTML = elem.getElementsByTagName('img')[0].outerHTML ;
+            document.getElementById('TitleDiv').innerHTML = '<h3>'+elem.innerText+'</h3>' ;
+            document.getElementById('TextDiv').innerHTML = getDescription($.trim(elem.innerText));
+            console.log(elem.getElementsByTagName('img')[0].outerHTML );
+            console.log(elem.innerText);
+        }).fadeIn('fast');
+
+        return false;
+    }
+    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,7 +59,7 @@
     <div id="navbar"></div>
 
     <!-- top bar -->
-    <div class="top-bar">
+    <div class="top-bar servicesBar">
         <h1>services</h1>
         <p><a href="index.html">Home</a> / Services</p>
     </div>
@@ -52,7 +68,7 @@
     <div class="container main-container">
         <div class="clearfix">
 
-            <div class="row">
+            <div class="row service-row ">
                 <!-- service-box -->
                 <div class="col-md-4 service-box">
                     <i class="icon-software-layout-header-complex size-50"></i>
@@ -81,7 +97,7 @@
                 <!-- end service-box -->
             </div>
 
-            <div class="row">
+            <div class="row service-row ">
                 <!-- service-box -->
                 <div class="col-md-4  service-box">
                     <i class="icon-basic-lightbulb size-50"></i>
@@ -113,93 +129,201 @@
         </div>
     </div>
 
-    <div class="top-bar middle-bar">
+    <div class="top-bar middle-bar servicesBar">
         <h1>My Toolbox <i class="icon-basic-elaboration-message-happy"></i></h1>
     </div>
-
     <div class="container main-container">
         <div class="clearfix">
-
             <div class="row">
-                <!-- service-box -->
-                <div class="col-md-4 service-box">
-                    <i class="icon-software-layout-header-complex size-50"></i>
-                    <h3>Web Design &amp Development</h3>
-                    <div class="h-10"></div>
-                    <p> Responsive development and creative design will help your bussiness stand out, while making your website easily accessible across all devices. </p>
-                </div>
-                <!-- end service-box -->
-
-                <!-- service-box -->
-                <div class="col-md-4 service-box">
-                    <i class="icon-basic-settings size-50"></i>
-                    <h3>Custom Apps </h3>
-                    <div class="h-10"></div>
-                    <p> Custom apps help business like yours to quickly solve unique problems. They're cost effective, adaptable to fit your needs and integrated with your existing bussiness system. </p>
-                </div>
-                <!-- end service-box -->
-
-                <!-- service-box -->
-                <div class="col-md-4  service-box">
-                    <i class="icon-basic-smartphone size-50"></i>
-                    <h3>Mobile Apps</h3>
-                    <div class="h-10"></div>
-                    <p> Not only can you use your Mobile Apps to engage customers, but also your employees. </p>
-                </div>
-                <!-- end service-box -->
-            </div>
-
-            <div class="row">
-                <!-- service-box -->
-                <div class="col-md-4  service-box">
-                    <i class="icon-basic-lightbulb size-50"></i>
-                    <h3>IT Solutions</h3>
-                    <div class="h-10"></div>
-                    <p> Do you need some help configuring a PaaS? Need to configure a server? Need an API? Something is broken? I cant do it! </p>
-                </div>
-                <!-- end service-box -->
-
-                <!-- service-box -->
-                <div class="col-md-4  service-box">
-                    <i class="icon-software-scale-expand size-50"></i>
-                    <h3> Small projects </h3>
-                    <div class="h-10"></div>
-                    <p> Do you need to get done a project? Do you have a nice idea and would like some help with it? Let's talk! </p>
-                </div>
-                <!-- end service-box -->
-
-                <!-- service-box -->
-                <div class="col-md-4  service-box">
-                    <i class="icon-basic-elaboration-message-plus size-50"></i>
-                    <h3> Way More...</h3>
-                    <div class="h-10"></div>
-                    <p> From 3D Modeling to photoshop editions to augmented reallity developments, simple unity games or data science solutions. </p>
-                </div>
-                <!-- end service-box -->
+                <div class="col-md-6">
+                    <div id="myCanvasContainer" style="width: 100%; margin: auto;"  >
+                     <canvas width="500" height="500" id="myCanvas">
+                      <p>Anything in here will be replaced on browsers that support the canvas element</p>
+                      <ul>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/amazonwebservices/amazonwebservices-original.svg" width="64" height="64"> AWS </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/angularjs/angularjs-original.svg" width="64" height="64"> AngularJs</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/bitbucket/bitbucket-original.svg" width="64" height="64"> Bitbucket</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/bootstrap/bootstrap-plain.svg" width="64" height="64"> Bootstrap</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/c/c-original.svg" width="64" height="64"> C</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/cpp.svg" width="64" height="64"> C++</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/css3/css3-original.svg" width="64" height="64"> CSS3</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/d3js/d3js-original.svg" width="64" height="64"> D3js </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/debian/debian-original.svg" width="64" height="64"> Debian </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/django/django-original.svg" width="64" height="64">Django</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/github/github-original.svg" width="64" height="64"> Github </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/haskell.svg" width="64" height="64"> Haskell </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/heroku/heroku-original.svg" width="64" height="64"> Heroku </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/html5/html5-original.svg" width="64" height="64"> HTML5 </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/javascript/javascript-original.svg" width="64" height="64"> JavaScript</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/java/java-original.svg" width="64" height="64"> Java </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/linux/linux-original.svg" width="64" height="64"> Linux</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/mysql/mysql-original.svg" width="64" height="64"> MySQL </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/maya.svg" width="64" height="64"> Maya </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/nginx/nginx-original.svg" width="64" height="64"> Nginx</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/nodejs/nodejs-original.svg" width="64" height="64"> NodeJS</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/photoshop/photoshop-plain.svg" width="64" height="64"> Photoshop </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/php/php-original.svg" width="64" height="64"> PHP </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/postgresql/postgresql-original.svg" width="64" height="64"> PostgreSQL </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/premiere.svg" width="64" height="64"> Premiere </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/python/python-original.svg" width="64" height="64"> Python</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/rails/rails-plain.svg" width="64" height="64"> Rails</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/ruby/ruby-original.svg" width="64" height="64"> Ruby</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/sass/sass-original.svg" width="64" height="64"> SASS </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/bash.png" width="64" height="64"> ShellScript </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/ssh/ssh-original.svg" width="64" height="64"> SSH </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/sysadmin.png" width="64" height="64"> Sysadmin</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/trello/trello-plain-wordmark.svg" width="64" height="64"> Trello </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/ubuntu/ubuntu-plain.svg" width="64" height="64"> Ubuntu </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/unity.svg" width="64" height="64"> Unity </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/windows8/windows8-original.svg" width="64" height="64"> Windows </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return showTool(this)"><img src="img/icons/wordpress/wordpress-original.svg" width="64" height="64"> Wordpress </a>
+                        </li>
+                    </ul>
+                </canvas>
             </div>
 
         </div>
+
+        <div class="col-md-6 canvasText">
+            <div id="ImgDiv">
+                <i class="icon-arrows-slim-left-dashed size-50 showBig"></i>
+                <i class="icon-arrows-slim-up-dashed size-50 showSmall"></i>
+            </div>
+            <div id="TitleDiv">
+
+                <h3>Click!</h3>
+            </div>
+            <div id="TextDiv" class="h-10">
+                To view the details of the chosen tool.
+            </div>
+        </div>
+
     </div>
 
-    <div id="footer"></div>
 
-    <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
-    <!-- end back to top -->
+</div>
+</div>
 
+<div id="footer"></div>
 
-
-    <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+<!-- back to top -->
+<a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+<!-- end back to top -->
 
 
-    <!--  custom script -->
-    <script src="js/custom.js"></script>
+
+<!-- jQuery -->
+<script src="js/jquery-2.1.1.js"></script>
+<!--  plugins -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/animated-headline.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+
+
+<!--  custom script -->
+<script src="js/custom.js"></script>
+
+
+<!-- tag canvas -->
+<script src="js/jquery.tagcanvas.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+ if( ! $('#myCanvas').tagcanvas({
+    dragControl: true,
+    textColour : '#999',
+    outlineThickness : 1,
+    maxSpeed : 0.03,
+    imageMode: 'both',
+    imagePosition: 'top',
+    fadeIn: 1,
+    imagePadding: 1,
+    initial: [0.3,-0.3],
+    outlineColour: 'transparent',
+    depth : 0.80    ,
+    zoomMin: 0.85,   
+    zoomMax: 1.10,
+    wheelZoom: false,
+    centreImage: 'img/fav.png'
+})) {
+     $('#myCanvasContainer').hide();
+ }
+});
+</script>
 
 </body>
 

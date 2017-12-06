@@ -41,9 +41,9 @@ body {
 }
 
 .actual {
-     text-decoration: underline !important;
-     text-decoration-color: #0e84ff !important;
-     text-underline-position: under;
+   text-decoration: underline !important;
+   text-decoration-color: #0e84ff !important;
+   text-underline-position: under;
 }
 
 .no-padding {
@@ -931,6 +931,10 @@ footer {
     margin-bottom: 0;
 }
 
+.copyright a {
+    color: inherit;
+}
+
 footer img {
     margin: 0 auto;
 }
@@ -1051,6 +1055,17 @@ footer img {
 
 /* Services page
 ==================================================*/
+
+.servicesBar {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .5), rgba(255, 255, 255, .6)), url(../img/backgrounds/services.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .5), rgba(255, 255, 255, .6)), url(../img/backgrounds/services.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
 
 .size-50 {
     font-size: 50px;
@@ -1212,12 +1227,28 @@ textarea:focus {
 /* Responsive media queries
 ==================================================*/
 
-@media screen and (max-width: 475px){
-    .service-box{
+@media screen and (max-width: 768px){
+    .service-box, .canvasText{
         padding-left: 3em;
+        padding-right: 0;
+    }
+    .service-row {
+        margin-right: 0;
+    }
+    .canvasText {
+        padding-bottom: 2em;
     }
 }
-
+@media screen and (max-width: 991px){
+    .showBig{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px){
+    .showSmall{
+        display: none;
+    }
+}
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
         margin-bottom: 0;

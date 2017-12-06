@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"fin",
+				"finalStr"
+			],
+			[
+				"str",
+				"strDict"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"Div",
+				"ImgDiv"
+			],
+			[
 				"marg",
-				"margin"
+				"margin-right"
+			],
+			[
+				"di",
+				"div\tTag"
 			],
 			[
 				"wid",
@@ -63,7 +83,16 @@
 			"file": "index2.html",
 			"settings":
 			{
-				"buffer_size": 11505,
+				"buffer_size": 11451,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.html",
+			"settings":
+			{
+				"buffer_size": 704,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -72,64 +101,62 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3473,
+				"buffer_size": 11340,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
+			"contents": "Searching 32 files for \"loader\"\n\n/home/nabil/projects/nabiljesus.github.io/about.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\"> \n\n/home/nabil/projects/nabiljesus.github.io/contact.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/index.html:\n   30  <body>\n   31  \n   32:     <!-- Preloader -->\n   33:     <div id=\"preloader\">\n   34          <div class=\"pre-container\">\n   35              <div class=\"sk-folding-cube\">\n   ..\n   41        </div>\n   42    </div>\n   43:   <!-- end Preloader -->\n   44  \n   45    <div w3-include-html=\"navbar.html\"></div>\n\n/home/nabil/projects/nabiljesus.github.io/index2.html:\n   35  <body>\n   36  \n   37:     <div w3-include-html=\"loader.html\"></div>\n   38      <div w3-include-html=\"navbar.html\"></div>\n   39  \n\n/home/nabil/projects/nabiljesus.github.io/loader.html:\n    1:     <!-- Preloader -->\n    2:     <div id=\"preloader\">\n    3          <div class=\"pre-container\">\n    4              <div class=\"sk-folding-cube\">\n    .\n   10        </div>\n   11    </div>\n   12:   <!-- end Preloader -->\n\n/home/nabil/projects/nabiljesus.github.io/portfolio.html:\n   37  \n   38  \n   39:     <div w3-include-html=\"loader.html\"></div>\n   40      <div w3-include-html=\"navbar.html\"></div>\n   41  \n\n/home/nabil/projects/nabiljesus.github.io/services.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/single-project.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/css/style.css:\n   12  \t- General -\n   13      - typography -\n   14:     - Preloader -\n   15  \t- Header -\n   16      - box intro section -\n   ..\n  106  \n  107  \n  108: /* preloader\n  109  ==================================================*/\n  110  \n  111: #preloader {\n  112      position: fixed;\n  113      top: 0;\n\n/home/nabil/projects/nabiljesus.github.io/js/custom.js:\n    1  $(window).load(function () {\n    2  \n    3:     // preloader\n    4      $('#status').fadeOut(); // will first fade out the loading animation\n    5:     $('#preloader').delay(550).fadeOut('slow'); // will fade out the white DIV that covers the website.\n    6      $('body').delay(550).css({\n    7          'overflow': 'visible'\n\n/home/nabil/projects/nabiljesus.github.io/js/jquery-2.1.1.js:\n 9145  // Note that for maximum portability, libraries that are not jQuery should\n 9146  // declare themselves as anonymous modules, and avoid setting a global if an\n 9147: // AMD loader is present. jQuery is a special case. For more information, see\n 9148  // https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon\n 9149  \n\n/home/nabil/projects/nabiljesus.github.io/js/modernizr.js:\n   14   * your pages with a granular level of control over the experience.\n   15   *\n   16:  * Modernizr has an optional (not included) conditional resource loader\n   17   * called Modernizr.load(), based on Yepnope.js (yepnopejs.com).\n   18   * To get a build that includes Modernizr.load(), as well as choosing\n\n27 matches across 12 files\n\n\nSearching 32 files for \"preloader\"\n\n/home/nabil/projects/nabiljesus.github.io/about.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\"> \n\n/home/nabil/projects/nabiljesus.github.io/contact.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/index.html:\n   30  <body>\n   31  \n   32:     <!-- Preloader -->\n   33:     <div id=\"preloader\">\n   34          <div class=\"pre-container\">\n   35              <div class=\"sk-folding-cube\">\n   ..\n   41        </div>\n   42    </div>\n   43:   <!-- end Preloader -->\n   44  \n   45    <div w3-include-html=\"navbar.html\"></div>\n\n/home/nabil/projects/nabiljesus.github.io/loader.html:\n    1:     <!-- Preloader -->\n    2:     <div id=\"preloader\">\n    3          <div class=\"pre-container\">\n    4              <div class=\"sk-folding-cube\">\n    .\n   10        </div>\n   11    </div>\n   12:   <!-- end Preloader -->\n\n/home/nabil/projects/nabiljesus.github.io/services.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/single-project.html:\n   31  <body>\n   32  \n   33:     <!-- Preloader -->\n   34:     <div id=\"preloader\">\n   35          <div class=\"pre-container\">\n   36              <div class=\"spinner\">\n   ..\n   40          </div>\n   41      </div>\n   42:     <!-- end Preloader -->\n   43  \n   44      <div class=\"container-fluid\">\n\n/home/nabil/projects/nabiljesus.github.io/css/style.css:\n   12  \t- General -\n   13      - typography -\n   14:     - Preloader -\n   15  \t- Header -\n   16      - box intro section -\n   ..\n  106  \n  107  \n  108: /* preloader\n  109  ==================================================*/\n  110  \n  111: #preloader {\n  112      position: fixed;\n  113      top: 0;\n\n/home/nabil/projects/nabiljesus.github.io/js/custom.js:\n    1  $(window).load(function () {\n    2  \n    3:     // preloader\n    4      $('#status').fadeOut(); // will first fade out the loading animation\n    5:     $('#preloader').delay(550).fadeOut('slow'); // will fade out the white DIV that covers the website.\n    6      $('body').delay(550).css({\n    7          'overflow': 'visible'\n\n23 matches across 8 files\n\n\nSearching 32 files for \"About me\"\n\n/home/nabil/projects/nabiljesus.github.io/about.html:\n   58          <nav>\n   59              <ul class=\"box-primary-nav\">\n   60:                 <li class=\"box-label\">About me</li>\n   61                  \n   62                  <li><a href=\"index.html\">Intro</a></li>\n   63:                 <li><a href=\"about.html\">About me</a> <i class=\"ion-ios-circle-filled color\"></i></li>\n   64                  <li><a href=\"services.html\">services</a></li>\n   65                  <li><a href=\"portfolio.html\">portfolio</a></li>\n   ..\n   79      <!-- Top bar -->\n   80      <div class=\"top-bar\">\n   81:         <h1>About Me</h1>\n   82:         <p><a href=\"#\">Home</a> / About me</p>\n   83      </div>\n   84      <!-- end Top bar -->\n   ..\n   90          </div>\n   91          <div class=\"col-md-6\">\n   92:            <h3 class=\"uppercase\">About Me </h3>\n   93             <h5>Creative & Lorem ipsum dolor sit amet</h5>\n   94             <div class=\"h-30\"></div>\n\n/home/nabil/projects/nabiljesus.github.io/contact.html:\n   59          <nav>\n   60              <ul class=\"box-primary-nav\">\n   61:                 <li class=\"box-label\">About me</li>\n   62  \n   63                  <li><a href=\"index.html\">Intro</a></li>\n   64:                 <li><a href=\"about.html\">About me</a></li>\n   65                  <li><a href=\"services.html\">services</a></li>\n   66                  <li><a href=\"portfolio.html\">portfolio</a></li>\n\n/home/nabil/projects/nabiljesus.github.io/navbar.html:\n   16          <nav>\n   17              <ul class=\"box-primary-nav\">\n   18:                 <li class=\"box-label\">About me</li>\n   19  \n   20                  <li><a href=\"index.html\">Intro</a>\n   21:                 <li><a href=\"about.html\">About me</a></li>\n   22                  <li><a href=\"services.html\">services</a></li>\n   23                  <li><a href=\"portfolio.html\">portfolio</a></li>\n\n/home/nabil/projects/nabiljesus.github.io/services.html:\n   59          <nav>\n   60              <ul class=\"box-primary-nav\">\n   61:                 <li class=\"box-label\">About me</li>\n   62  \n   63                  <li><a href=\"index.html\">Intro</a></li>\n   64:                 <li><a href=\"about.html\">About me</a></li>\n   65                  <li><a href=\"services.html\">services</a> <i class=\"ion-ios-circle-filled color\"></i></li>\n   66                  <li><a href=\"portfolio.html\">portfolio</a></li>\n\n/home/nabil/projects/nabiljesus.github.io/single-project.html:\n   59          <nav>\n   60              <ul class=\"box-primary-nav\">\n   61:                 <li class=\"box-label\">About me</li>\n   62  \n   63                  <li><a href=\"index.html\">Intro</a></li>\n   64:                 <li><a href=\"about.html\">About me</a></li>\n   65                  <li><a href=\"services.html\">services</a></li>\n   66                  <li><a href=\"portfolio.html\">portfolio</a> <i class=\"ion-ios-circle-filled color\"></i></li>\n\n13 matches across 5 files\n",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 9884,
 				"line_ending": "Unix",
-				"name": "Find References",
+				"name": "Find Results",
 				"scratch": true
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSyntax Highlighting for Sass\n----------------------------\n\n  Thank you very much for keeping using this package.\n  \n  I am so sorry for lacking care in this package for such a long period (almost three years). There were lots of issues I haven't had a chance to fix in the last version, most of them are about the auto-completion feature. It was my experiment to reduce noises if you have massive snippets and completions installed, and it's based on tweaking syntax scopes on both syntax definition files and built-in completions. But it may have a bad influence on some other snippets and completions. So I decided to completely remove this feature and re-write this package with the new Sublime Text 3 syntax definition format from scratch in order to purely forced on highlighting the syntax as accuracy as possible. Therefore, this package will be only working on Sublime Text 3 (>= build 3103).\n  \n  Here are the new features:\n  \n  1. Added support for CSS4 variables\n  2. Enhanced Sass map highlighting\n  3. Enhanced CSS functions and Sass functions highlighting\n  4. Enhanced Sass mixin/function name highlighting and their \"Goto Definition\" support\n  5. Removed the built-in completions\n  \n  Besides, the scopes have been changed a lot. Please take a look at https://github.com/P233/Syntax-highlighting-for-Sass#scopes-list\n  \n  If you have any issue or suggestion please open a new issue on GitHub.\n  \n  All the best,\n  Peiwen\n\n  \n  Thank you for using Syntax Highlighting for Sass.\n  \n  With over 80 improvements this package now works much better than ever! Here are some new features:\n  \n  ## Improved lots of highlighting rules and fully support Sass 3.3 syntax\n  \n  ## Built-in Completion Packages\n  \n      There are 8 built-in completion packages. Pick up the package name which you are not intend to use, then add it/them into the `ignored_packages` list of your settings file. (If you know a better way to do this please please let me know.)\n  \n      * SHS-At-Rule\n      * SHS-Bourbon\n      * SHS-Bourbon-Neat\n      * SHS-Compass-Mixins\n      * SHS-Compass-Variables\n      * SHS-CSS-Properties\n      * SHS-CSS-Property-Values\n      * SHS-Sass-Functions\n  \n  ## Smart Completion Rule\n  \n      1. Typing @-rule, ID, class, placeholder-selector, mixin name, function name, comment, and quoted content will never popup any completions.\n      2. ** When typing property values, property name and other completions will no longer popup.\n      3. Built-in mixin name completions will only popup directly behind `@include` or `+`.\n      4. Built-in variable compltions will only popup when you typing variables.\n  \n      ** The latest version of [Emmet CSS Snippets](https://sublime.wbond.net/packages/Emmet%20Css%20Snippets) now fully supports this feature. I recommend to use it instead of the built-in properties completion package.\n  \n  ## Improved support for Goto Symbol and Goto Definition features\n  \n  ## Comment Tag\n  \n      Use `{{` and `}}` to wrap a keyword inside comment, then this keyword (comment tag) will be indexed by the Goto Symbol and Goto Definition features.\n  \n  \n  \n  -------\n  For more details please check https://github.com/P233/Syntax-highlighting-for-Sass/\n  -------\n  \n  -------------\n  Enjoy coding!\n",
+			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 3295,
+				"buffer_size": 17195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "'AWS' : 'Amazon Web Services (AWS) is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis with a free-tier option available for 12 months. The technology allows subscribers to have at their disposal a full-fledged virtual cluster of computers, available all the time, through the internet. AWS\\'s version of virtual computers have most of the attributes of a real computer including hardware (CPU(s) & GPU(s) for processing, local/RAM memory, hard-disk/SSD storage); a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, CRM, etc.',\n'AngularJs' : '',\n'Bitbucket' : '',\n'Bootstrap' : '',\n'C' : '',\n'C++' : '',\n'CSS3' : '',\n'D3js' : '',\n'Debian' : '',\n'Django' : '',\n'Github' : '',\n'Haskell' : '',\n'Heroku' : '',\n'HTML5' : '',\n'JavaScript' : '',\n'Java' : '',\n'Linux' : '',\n'MySQL' : '',\n'Maya' : '',\n'Nginx' : '',\n'NodeJS' : '',\n'Photoshop' : '',\n'PHP' : '',\n'PostgreSQL' : '',\n'Premiere' : '',\n'Python' : '',\n'Rails' : '',\n'Ruby' : '',\n'SASS' : '',\n'ShellScript' : '',\n'SSH' : '',\n'Sysadmin' : '',\n'Trello' : '',\n'Ubuntu' : '',\n'Unity' : '',\n'Windows' : '',\n'Wordpress' : '',",
+			"settings":
+			{
+				"buffer_size": 1228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/custom.js",
+			"settings":
+			{
+				"buffer_size": 2014,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "merge.py",
+			"settings":
+			{
+				"buffer_size": 1884,
+				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"name": "# Python program for implementation of MergeSort"
 			}
 		},
 		{
-			"file": "portfolio.html",
+			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 10929,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/menu.js",
-			"settings":
-			{
-				"buffer_size": 2017,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "navbar.html",
-			"settings":
-			{
-				"buffer_size": 1715,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 25829,
+				"buffer_size": 5423,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -174,19 +201,38 @@
 	[
 		"/home/nabil/projects/nabiljesus.github.io",
 		"/home/nabil/projects/nabiljesus.github.io/css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts",
 		"/home/nabil/projects/nabiljesus.github.io/js"
 	],
 	"file_history":
 	[
-		"/home/nabil/projects/nabiljesus.github.io/loader.html",
-		"/home/nabil/projects/nabiljesus.github.io/js/animated-headline.js",
+		"/home/nabil/projects/mahisoft/preg3.py",
+		"/home/nabil/projects/mahisoft/preg1.py",
+		"/home/nabil/projects/mahisoft/preg2.py",
+		"/home/nabil/darient/darienconnect/darientSessions/views.py",
 		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/navbar.html",
+		"/home/nabil/projects/nabiljesus.github.io/js/jquery.tagcanvas.js",
+		"/home/nabil/projects/nabiljesus.github.io/js/tagcanvas.js",
+		"/home/nabil/projects/nabiljesus.github.io/css/devicon.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_software/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/contact.html",
+		"/home/nabil/projects/nabiljesus.github.io/portfolio.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/menu.js",
+		"/home/nabil/projects/nabiljesus.github.io/loader.html",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_basic_elaboration/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_weather/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/css/devicon.json",
+		"/home/nabil/projects/nabiljesus.github.io/css/devicon.min.css",
+		"/home/nabil/projects/nabiljesus.github.io/css/devicon-colors.css",
+		"/home/nabil/projects/nabiljesus.github.io/devicon.css",
+		"/home/nabil/projects/nabiljesus.github.io/about.html",
+		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
+		"/home/nabil/projects/nabiljesus.github.io/js/animated-headline.js",
 		"/home/nabil/projects/nabiljesus.github.io/footer.html",
 		"/home/nabil/projects/nabiljesus.github.io/LICENSE",
 		"/var/www/html/index.nginx-debian.html",
-		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
-		"/home/nabil/projects/nabiljesus.github.io/portfolio.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/w3.js",
 		"/home/nabil/projects/nabiljesus.github.io/css/bootstrap.min.css",
 		"/home/nabil/work/darient/darienconnect/darienconnect/settings.py",
@@ -287,29 +333,11 @@
 		"/home/nabil/work/darient/darienconnect/static/remark/html/pages/gallery.html",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/pages/login.css",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/pages/login-v2.css",
-		"/home/nabil/work/darient/cw_template2/Source/package.json",
-		"/home/nabil/work/darient/proyecto_cwp/postman_collections_cwp/JWT.postman_collection.json",
-		"/home/nabil/work/darient/darienconnect/management_reports/urls.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/templates/switch_company.html",
-		"/home/nabil/work/darient/darienconnect/darientSessions/templates/login.html",
-		"/home/nabil/work/darient/darienconnect/static/remark/html/pages/login-v2.html",
-		"/home/nabil/work/darient/darienconnect/static/remark/html/pages/login-v3.html",
-		"/home/nabil/work/darient/proyecto_cwp/postman_collections_cwp/JWT.postman_collection2.json",
-		"/home/nabil/work/darient/CW-vpn.conf",
-		"/home/nabil/Downloads/NORMAN_COBUM_DARIEN_TECH.p12",
-		"/home/nabil/work/darient/darienconnect/issues/views.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/management/commands/__init__.py",
-		"/home/nabil/work/darient/darienconnect/scripts/__init__.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/update_campaigns.py",
-		"/home/nabil/work/darient/darienconnect/darienCampaigns/forms.py",
-		"/home/nabil/work/darient/darienconnect/management_reports/views.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/models.py",
-		"/home/nabil/work/darient/darienconnect/products/views.py",
-		"/home/nabil/work/darient/darienconnect/darienconnect/forms.py"
+		"/home/nabil/work/darient/cw_template2/Source/package.json"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -324,6 +352,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ImgDiv",
+			" ",
+			"64\">.*</a>",
+			"media",
+			">*",
+			"*",
+			"html",
+			"                            <",
+			"middle-bar",
+			"service-box",
+			"<div w3-include-html=\"footer.html\"></div>",
+			"<div w3-include-html=\"navbar.html\"></div>",
+			"<div w3-include-html=\"loader.html\"></div>",
+			"About me",
+			"#preloader",
+			"preloader",
+			"loader",
 			"50",
 			"is-visible",
 			".in",
@@ -336,9 +381,13 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"<div id=\"footer\"></div>",
+			"<div id=\"navbar\"></div>",
+			"<div id=\"loader\"></div>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -349,7 +398,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -358,53 +407,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11505,
+						"buffer_size": 11451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1162,
-								1162
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 52.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2839,
-								2839
+								0,
+								11451
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 122,
+								"changes": 49,
+								"count": 322,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -415,39 +434,468 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 735.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
+					"file": "footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								93,
+								102
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
+								"changes": 95,
+								"count": 36,
+								"modified": false,
+								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1164,
+								1164
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 12,
+								"count": 319,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 33.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9884,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										128,
+										134
+									],
+									[
+										162,
+										168
+									],
+									[
+										324,
+										330
+									],
+									[
+										483,
+										489
+									],
+									[
+										517,
+										523
+									],
+									[
+										679,
+										685
+									],
+									[
+										835,
+										841
+									],
+									[
+										869,
+										875
+									],
+									[
+										1033,
+										1039
+									],
+									[
+										1214,
+										1220
+									],
+									[
+										1370,
+										1376
+									],
+									[
+										1404,
+										1410
+									],
+									[
+										1568,
+										1574
+									],
+									[
+										1687,
+										1693
+									],
+									[
+										1867,
+										1873
+									],
+									[
+										1901,
+										1907
+									],
+									[
+										2063,
+										2069
+									],
+									[
+										2228,
+										2234
+									],
+									[
+										2262,
+										2268
+									],
+									[
+										2424,
+										2430
+									],
+									[
+										2604,
+										2610
+									],
+									[
+										2700,
+										2706
+									],
+									[
+										2786,
+										2792
+									],
+									[
+										2960,
+										2966
+									],
+									[
+										3065,
+										3071
+									],
+									[
+										3476,
+										3482
+									],
+									[
+										3862,
+										3868
+									],
+									[
+										4176,
+										4185
+									],
+									[
+										4210,
+										4219
+									],
+									[
+										4372,
+										4381
+									],
+									[
+										4531,
+										4540
+									],
+									[
+										4565,
+										4574
+									],
+									[
+										4727,
+										4736
+									],
+									[
+										4883,
+										4892
+									],
+									[
+										4917,
+										4926
+									],
+									[
+										5081,
+										5090
+									],
+									[
+										5226,
+										5235
+									],
+									[
+										5260,
+										5269
+									],
+									[
+										5424,
+										5433
+									],
+									[
+										5534,
+										5543
+									],
+									[
+										5568,
+										5577
+									],
+									[
+										5730,
+										5739
+									],
+									[
+										5895,
+										5904
+									],
+									[
+										5929,
+										5938
+									],
+									[
+										6091,
+										6100
+									],
+									[
+										6271,
+										6280
+									],
+									[
+										6367,
+										6376
+									],
+									[
+										6453,
+										6462
+									],
+									[
+										6627,
+										6636
+									],
+									[
+										6732,
+										6741
+									],
+									[
+										7135,
+										7143
+									],
+									[
+										7284,
+										7292
+									],
+									[
+										7572,
+										7580
+									],
+									[
+										7627,
+										7635
+									],
+									[
+										7796,
+										7804
+									],
+									[
+										8090,
+										8098
+									],
+									[
+										8223,
+										8231
+									],
+									[
+										8551,
+										8559
+									],
+									[
+										8679,
+										8687
+									],
+									[
+										9009,
+										9017
+									],
+									[
+										9142,
+										9150
+									],
+									[
+										9522,
+										9530
+									],
+									[
+										9655,
+										9663
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								6932,
+								6932
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 414,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "services.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1109,
+								1109
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 13841,
+								"count": 710,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1699,
+								"count": 131,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -457,19 +905,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
+					"file": "js/custom.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3295,
+						"buffer_size": 2014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3295,
-								3295
+								75,
+								75
 							]
 						],
 						"settings":
@@ -480,99 +929,9 @@
 								"modified": true,
 								"selection": true,
 								"status": -1,
-								"syntax": "plain text"
+								"syntax": "javascript"
 							},
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "portfolio.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10929,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10827,
-								10827
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2699.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/menu.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2017,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1860,
-								1860
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								448,
-								448
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -585,24 +944,73 @@
 				},
 				{
 					"buffer": 7,
-					"file": "css/style.css",
+					"file": "merge.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25829,
+						"buffer_size": 1884,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								483,
-								483
+								482,
+								482
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"WordCount":
+							{
+								"changes": 145,
+								"count": 213,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_name": "# Python program for implementation of MergeSort",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1805,
+								"count": 88,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -659,7 +1067,7 @@
 	"project": "website.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -669,8 +1077,40 @@
 		"selected_items":
 		[
 			[
+				"cust",
+				"js/custom.js"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
 				"sty",
 				"css/style.css"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"custo",
+				"js/custom.js"
+			],
+			[
+				"styl",
+				"css/style.css"
+			],
+			[
+				"foot",
+				"footer.html"
+			],
+			[
+				"menu",
+				"js/menu.js"
+			],
+			[
+				"loader",
+				"loader.html"
 			],
 			[
 				"navb",
@@ -905,10 +1345,6 @@
 				"static/assets/css/fixes.css"
 			],
 			[
-				"foot",
-				"darienconnect/templates/footer.html"
-			],
-			[
 				"base_d",
 				"templates/base_darienconnect.html"
 			]
@@ -918,9 +1354,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "cw",
+		"last_filter": "mic",
 		"selected_items":
 		[
+			[
+				"mic",
+				"~/darient/miclave_app/miclave_app.sublime-project"
+			],
 			[
 				"cw",
 				"~/darient/cw_app/cw_app.sublime-project"
