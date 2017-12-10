@@ -518,6 +518,22 @@ h5 {
 /* box-intro
 ==================================================*/
 
+em.academic, a.academic.active {
+    background-color: #407ff5 !important;
+}
+
+em.freelance, a.freelance.active {
+    background-color: #FFD23F !important;
+}
+
+em.professional, a.professional.active {
+    background-color: #CC6DEE !important;
+}
+
+em.personal, a.personal.active {
+    background-color: #EE4266 !important;
+}
+
 .box-intro {
     text-align: center;
     display: table;
