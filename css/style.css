@@ -1282,8 +1282,15 @@ textarea:focus {
     .service-row {
         margin-right: 0;
     }
+    #TextDiv {
+        padding-right: 3em;
+        text-align: justify;
+    }
     .canvasText {
         padding-bottom: 2em;
+    }
+    .canvasCol {
+        padding-right: 0;
     }
 }
 @media screen and (max-width: 991px){
