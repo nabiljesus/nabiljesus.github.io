@@ -12,9 +12,9 @@
  * https://opensource.org/licenses/MIT
  */
 
-/* global define, window, document, DocumentTouch */
+ /* global define, window, document, DocumentTouch */
 
-;(function (factory) {
+ ;(function (factory) {
   'use strict'
   if (typeof define === 'function' && define.amd) {
     // Register as an anonymous AMD module:
@@ -41,7 +41,7 @@
       this.console.log(
         'blueimp Gallery: No or empty list provided as first argument.',
         list
-      )
+        )
       return
     }
     this.list = list
@@ -196,16 +196,16 @@
     },
 
     console:
-      window.console && typeof window.console.log === 'function'
-        ? window.console
-        : { log: function () {} },
+    window.console && typeof window.console.log === 'function'
+    ? window.console
+    : { log: function () {} },
 
     // Detect touch, transition, transform and background-size support:
     support: (function (element) {
       var support = {
         touch:
-          window.ontouchstart !== undefined ||
-          (window.DocumentTouch && document instanceof DocumentTouch)
+        window.ontouchstart !== undefined ||
+        (window.DocumentTouch && document instanceof DocumentTouch)
       }
       var transitions = {
         webkitTransition: {
@@ -230,67 +230,67 @@
         if (
           transitions.hasOwnProperty(prop) &&
           element.style[prop] !== undefined
-        ) {
+          ) {
           support.transition = transitions[prop]
-          support.transition.name = prop
-          break
-        }
+        support.transition.name = prop
+        break
       }
-      function elementTests () {
-        var transition = support.transition
-        var prop
-        var translateZ
-        document.body.appendChild(element)
-        if (transition) {
-          prop = transition.name.slice(0, -9) + 'ransform'
-          if (element.style[prop] !== undefined) {
-            element.style[prop] = 'translateZ(0)'
-            translateZ = window
-              .getComputedStyle(element)
-              .getPropertyValue(transition.prefix + 'transform')
-            support.transform = {
-              prefix: transition.prefix,
-              name: prop,
-              translate: true,
-              translateZ: !!translateZ && translateZ !== 'none'
-            }
+    }
+    function elementTests () {
+      var transition = support.transition
+      var prop
+      var translateZ
+      document.body.appendChild(element)
+      if (transition) {
+        prop = transition.name.slice(0, -9) + 'ransform'
+        if (element.style[prop] !== undefined) {
+          element.style[prop] = 'translateZ(0)'
+          translateZ = window
+          .getComputedStyle(element)
+          .getPropertyValue(transition.prefix + 'transform')
+          support.transform = {
+            prefix: transition.prefix,
+            name: prop,
+            translate: true,
+            translateZ: !!translateZ && translateZ !== 'none'
           }
         }
-        if (element.style.backgroundSize !== undefined) {
-          support.backgroundSize = {}
-          element.style.backgroundSize = 'contain'
-          support.backgroundSize.contain =
-            window
-              .getComputedStyle(element)
-              .getPropertyValue('background-size') === 'contain'
-          element.style.backgroundSize = 'cover'
-          support.backgroundSize.cover =
-            window
-              .getComputedStyle(element)
-              .getPropertyValue('background-size') === 'cover'
-        }
-        document.body.removeChild(element)
       }
-      if (document.body) {
-        elementTests()
-      } else {
-        $(document).on('DOMContentLoaded', elementTests)
+      if (element.style.backgroundSize !== undefined) {
+        support.backgroundSize = {}
+        element.style.backgroundSize = 'contain'
+        support.backgroundSize.contain =
+        window
+        .getComputedStyle(element)
+        .getPropertyValue('background-size') === 'contain'
+        element.style.backgroundSize = 'cover'
+        support.backgroundSize.cover =
+        window
+        .getComputedStyle(element)
+        .getPropertyValue('background-size') === 'cover'
       }
-      return support
+      document.body.removeChild(element)
+    }
+    if (document.body) {
+      elementTests()
+    } else {
+      $(document).on('DOMContentLoaded', elementTests)
+    }
+    return support
       // Test element, has to be standard HTML and must not be hidden
       // for the CSS3 tests using window.getComputedStyle to be applicable:
     })(document.createElement('div')),
 
     requestAnimationFrame:
-      window.requestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      window.mozRequestAnimationFrame,
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame,
 
     cancelAnimationFrame:
-      window.cancelAnimationFrame ||
-      window.webkitCancelRequestAnimationFrame ||
-      window.webkitCancelAnimationFrame ||
-      window.mozCancelAnimationFrame,
+    window.cancelAnimationFrame ||
+    window.webkitCancelRequestAnimationFrame ||
+    window.webkitCancelAnimationFrame ||
+    window.mozCancelAnimationFrame,
 
     initialize: function () {
       this.initStartIndex()
@@ -344,7 +344,7 @@
             this.circle((to > index ? to : index) - diff - 1),
             this.slideWidth * direction,
             0
-          )
+            )
         }
         to = this.circle(to)
         this.move(index, this.slideWidth * direction, speed)
@@ -354,7 +354,7 @@
             this.circle(to - direction),
             -(this.slideWidth * direction),
             0
-          )
+            )
         }
       } else {
         to = this.circle(to)
@@ -375,12 +375,28 @@
       if (this.options.continuous || this.index) {
         this.slide(this.index - 1)
       }
+
+      var text = this.list[this.index].getAttribute('data-description'),
+      node = this.container.find('.description');
+      node.empty();
+      if (text) {
+        node[0].appendChild(document.createTextNode(text));
+      }
+
     },
 
     next: function () {
       if (this.options.continuous || this.index < this.num - 1) {
         this.slide(this.index + 1)
       }
+
+      var text = this.list[this.index].getAttribute('data-description'),
+      node = this.container.find('.description');
+      node.empty();
+      if (text) {
+        node[0].appendChild(document.createTextNode(text));
+      }
+
     },
 
     play: function (time) {
@@ -390,17 +406,17 @@
       if (this.elements[this.index] > 1) {
         this.timeout = this.setTimeout(
           (!this.requestAnimationFrame && this.slide) ||
-            function (to, speed) {
-              that.animationFrameId = that.requestAnimationFrame.call(
-                window,
-                function () {
-                  that.slide(to, speed)
-                }
+          function (to, speed) {
+            that.animationFrameId = that.requestAnimationFrame.call(
+              window,
+              function () {
+                that.slide(to, speed)
+              }
               )
-            },
+          },
           [this.index + 1, this.options.slideshowTransitionSpeed],
           this.interval
-        )
+          )
       }
       this.container.addClass(this.options.playingClass)
     },
@@ -432,8 +448,8 @@
         this.container.removeClass(this.options.leftEdgeClass)
       }
       this.container
-        .removeClass(this.options.rightEdgeClass)
-        .removeClass(this.options.singleClass)
+      .removeClass(this.options.rightEdgeClass)
+      .removeClass(this.options.singleClass)
       for (i = this.num - list.length; i < this.num; i += 1) {
         this.addSlide(i)
         this.positionSlide(i)
@@ -455,10 +471,10 @@
       this.pause()
       this.container[0].style.display = 'none'
       this.container
-        .removeClass(options.displayClass)
-        .removeClass(options.singleClass)
-        .removeClass(options.leftEdgeClass)
-        .removeClass(options.rightEdgeClass)
+      .removeClass(options.displayClass)
+      .removeClass(options.singleClass)
+      .removeClass(options.leftEdgeClass)
+      .removeClass(options.rightEdgeClass)
       if (options.hidePageScrollbars) {
         document.body.style.overflow = this.bodyOverflowStyle
       }
@@ -505,12 +521,12 @@
       var transform = this.support.transform
       style[transition.name + 'Duration'] = speed + 'ms'
       style[transform.name] =
-        'translate(' +
-        x +
-        'px, ' +
-        y +
-        'px)' +
-        (transform.translateZ ? ' translateZ(0)' : '')
+      'translate(' +
+      x +
+      'px, ' +
+      y +
+      'px)' +
+      (transform.translateZ ? ' translateZ(0)' : '')
     },
 
     translateX: function (index, x, speed) {
@@ -537,7 +553,7 @@
           return
         }
         that.slidesContainer[0].style.left =
-          (to - from) * (Math.floor(timeElap / speed * 100) / 100) + from + 'px'
+        (to - from) * (Math.floor(timeElap / speed * 100) / 100) + from + 'px'
       }, 4)
     },
 
@@ -568,15 +584,15 @@
         event.which &&
         event.which === 1 &&
         event.target.nodeName !== 'VIDEO'
-      ) {
+        ) {
         // Preventing the default mousedown action is required
         // to make touch emulation work with Firefox:
         event.preventDefault()
         ;(event.originalEvent || event).touches = [
-          {
-            pageX: event.pageX,
-            pageY: event.pageY
-          }
+        {
+          pageX: event.pageX,
+          pageY: event.pageY
+        }
         ]
         this.ontouchstart(event)
       }
@@ -585,10 +601,10 @@
     onmousemove: function (event) {
       if (this.touchStart) {
         ;(event.originalEvent || event).touches = [
-          {
-            pageX: event.pageX,
-            pageY: event.pageY
-          }
+        {
+          pageX: event.pageX,
+          pageY: event.pageY
+        }
         ]
         this.ontouchmove(event)
       }
@@ -658,8 +674,8 @@
       // Detect if this is a vertical scroll movement (run only once per touch):
       if (this.isScrolling === undefined) {
         this.isScrolling =
-          this.isScrolling ||
-          Math.abs(touchDeltaX) < Math.abs(this.touchDelta.y)
+        this.isScrolling ||
+        Math.abs(touchDeltaX) < Math.abs(this.touchDelta.y)
       }
       if (!this.isScrolling) {
         // Always prevent horizontal scroll:
@@ -672,11 +688,11 @@
           // Increase resistance if first slide and sliding left
           // or last slide and sliding right:
           this.touchDelta.x = touchDeltaX =
-            touchDeltaX /
-            ((!index && touchDeltaX > 0) ||
+          touchDeltaX /
+          ((!index && touchDeltaX > 0) ||
             (index === this.num - 1 && touchDeltaX < 0)
-              ? Math.abs(touchDeltaX) / this.slideWidth + 1
-              : 1)
+            ? Math.abs(touchDeltaX) / this.slideWidth + 1
+            : 1)
           indices = [index]
           if (index) {
             indices.push(index - 1)
@@ -704,17 +720,17 @@
       var isShortDuration = Number(Date.now() - this.touchStart.time) < 250
       // Determine if slide attempt triggers next/prev slide:
       var isValidSlide =
-        (isShortDuration && Math.abs(this.touchDelta.x) > 20) ||
-        Math.abs(this.touchDelta.x) > slideWidth / 2
+      (isShortDuration && Math.abs(this.touchDelta.x) > 20) ||
+      Math.abs(this.touchDelta.x) > slideWidth / 2
       // Determine if slide attempt is past start or end:
       var isPastBounds =
-        (!index && this.touchDelta.x > 0) ||
-        (index === this.num - 1 && this.touchDelta.x < 0)
+      (!index && this.touchDelta.x > 0) ||
+      (index === this.num - 1 && this.touchDelta.x < 0)
       var isValidClose =
-        !isValidSlide &&
-        this.options.closeOnSwipeUpOrDown &&
-        ((isShortDuration && Math.abs(this.touchDelta.y) > 20) ||
-          Math.abs(this.touchDelta.y) > this.slideHeight / 2)
+      !isValidSlide &&
+      this.options.closeOnSwipeUpOrDown &&
+      ((isShortDuration && Math.abs(this.touchDelta.y) > 20) ||
+        Math.abs(this.touchDelta.y) > this.slideHeight / 2)
       var direction
       var indexForward
       var indexBackward
@@ -742,7 +758,7 @@
             this.circle(indexBackward),
             this.positions[this.circle(indexBackward)] + distanceForward,
             speed
-          )
+            )
           index = this.circle(indexBackward)
           this.onslide(index)
         } else {
@@ -824,36 +840,36 @@
     onkeydown: function (event) {
       switch (event.which || event.keyCode) {
         case 13: // Return
-          if (this.options.toggleControlsOnReturn) {
-            this.preventDefault(event)
-            this.toggleControls()
-          }
-          break
+        if (this.options.toggleControlsOnReturn) {
+          this.preventDefault(event)
+          this.toggleControls()
+        }
+        break
         case 27: // Esc
-          if (this.options.closeOnEscape) {
-            this.close()
+        if (this.options.closeOnEscape) {
+          this.close()
             // prevent Esc from closing other things
             event.stopImmediatePropagation()
           }
           break
         case 32: // Space
-          if (this.options.toggleSlideshowOnSpace) {
-            this.preventDefault(event)
-            this.toggleSlideshow()
-          }
-          break
+        if (this.options.toggleSlideshowOnSpace) {
+          this.preventDefault(event)
+          this.toggleSlideshow()
+        }
+        break
         case 37: // Left
-          if (this.options.enableKeyboardNavigation) {
-            this.preventDefault(event)
-            this.prev()
-          }
-          break
+        if (this.options.enableKeyboardNavigation) {
+          this.preventDefault(event)
+          this.prev()
+        }
+        break
         case 39: // Right
-          if (this.options.enableKeyboardNavigation) {
-            this.preventDefault(event)
-            this.next()
-          }
-          break
+        if (this.options.enableKeyboardNavigation) {
+          this.preventDefault(event)
+          this.next()
+        }
+        break
       }
     },
 
@@ -896,7 +912,7 @@
       } else if (
         parent.parentNode &&
         parent.parentNode === this.slidesContainer[0]
-      ) {
+        ) {
         // Click on displayed element
         if (options.toggleControlsOnSlideClick) {
           this.preventDefault(event)
@@ -910,80 +926,80 @@
         this.options.emulateTouchEvents &&
         this.touchDelta &&
         (Math.abs(this.touchDelta.x) > 20 || Math.abs(this.touchDelta.y) > 20)
-      ) {
+        ) {
         delete this.touchDelta
-        return
-      }
-      return this.handleClick(event)
-    },
+      return
+    }
+    return this.handleClick(event)
+  },
 
-    updateEdgeClasses: function (index) {
-      if (!index) {
-        this.container.addClass(this.options.leftEdgeClass)
-      } else {
-        this.container.removeClass(this.options.leftEdgeClass)
-      }
-      if (index === this.num - 1) {
-        this.container.addClass(this.options.rightEdgeClass)
-      } else {
-        this.container.removeClass(this.options.rightEdgeClass)
-      }
-    },
+  updateEdgeClasses: function (index) {
+    if (!index) {
+      this.container.addClass(this.options.leftEdgeClass)
+    } else {
+      this.container.removeClass(this.options.leftEdgeClass)
+    }
+    if (index === this.num - 1) {
+      this.container.addClass(this.options.rightEdgeClass)
+    } else {
+      this.container.removeClass(this.options.rightEdgeClass)
+    }
+  },
 
-    handleSlide: function (index) {
-      if (!this.options.continuous) {
-        this.updateEdgeClasses(index)
-      }
-      this.loadElements(index)
-      if (this.options.unloadElements) {
-        this.unloadElements(index)
-      }
-      this.setTitle(index)
-    },
+  handleSlide: function (index) {
+    if (!this.options.continuous) {
+      this.updateEdgeClasses(index)
+    }
+    this.loadElements(index)
+    if (this.options.unloadElements) {
+      this.unloadElements(index)
+    }
+    this.setTitle(index)
+  },
 
-    onslide: function (index) {
-      this.index = index
-      this.handleSlide(index)
-      this.setTimeout(this.options.onslide, [index, this.slides[index]])
-    },
+  onslide: function (index) {
+    this.index = index
+    this.handleSlide(index)
+    this.setTimeout(this.options.onslide, [index, this.slides[index]])
+  },
 
-    setTitle: function (index) {
-      var firstChild = this.slides[index].firstChild
-      var text = firstChild.title || firstChild.alt
-      var titleElement = this.titleElement
-      if (titleElement.length) {
-        this.titleElement.empty()
-        if (text) {
-          titleElement[0].appendChild(document.createTextNode(text))
-        }
+  setTitle: function (index) {
+    var firstChild = this.slides[index].firstChild
+    var text = firstChild.title || firstChild.alt
+    var titleElement = this.titleElement
+    if (titleElement.length) {
+      this.titleElement.empty()
+      if (text) {
+        titleElement[0].appendChild(document.createTextNode(text))
       }
-    },
+    }
+  },
 
-    setTimeout: function (func, args, wait) {
-      var that = this
-      return (
-        func &&
-        window.setTimeout(function () {
-          func.apply(that, args || [])
-        }, wait || 0)
+  setTimeout: function (func, args, wait) {
+    var that = this
+    return (
+      func &&
+      window.setTimeout(function () {
+        func.apply(that, args || [])
+      }, wait || 0)
       )
-    },
+  },
 
-    imageFactory: function (obj, callback) {
-      var that = this
-      var img = this.imagePrototype.cloneNode(false)
-      var url = obj
-      var backgroundSize = this.options.stretchImages
-      var called
-      var element
-      var title
-      function callbackWrapper (event) {
-        if (!called) {
-          event = {
-            type: event.type,
-            target: element
-          }
-          if (!element.parentNode) {
+  imageFactory: function (obj, callback) {
+    var that = this
+    var img = this.imagePrototype.cloneNode(false)
+    var url = obj
+    var backgroundSize = this.options.stretchImages
+    var called
+    var element
+    var title
+    function callbackWrapper (event) {
+      if (!called) {
+        event = {
+          type: event.type,
+          target: element
+        }
+        if (!element.parentNode) {
             // Fix for IE7 firing the load event for
             // cached images before the element could
             // be added to the DOM:
@@ -1008,9 +1024,9 @@
         backgroundSize = 'contain'
       }
       backgroundSize =
-        this.support.backgroundSize &&
-        this.support.backgroundSize[backgroundSize] &&
-        backgroundSize
+      this.support.backgroundSize &&
+      this.support.backgroundSize[backgroundSize] &&
+      backgroundSize
       if (backgroundSize) {
         element = this.elementPrototype.cloneNode(false)
       } else {
@@ -1028,16 +1044,16 @@
     createElement: function (obj, callback) {
       var type = obj && this.getItemProperty(obj, this.options.typeProperty)
       var factory =
-        (type && this[type.split('/')[0] + 'Factory']) || this.imageFactory
+      (type && this[type.split('/')[0] + 'Factory']) || this.imageFactory
       var element = obj && factory.call(this, obj, callback)
       var srcset = this.getItemProperty(obj, this.options.srcsetProperty)
       if (!element) {
         element = this.elementPrototype.cloneNode(false)
         this.setTimeout(callback, [
-          {
-            type: 'error',
-            target: element
-          }
+        {
+          type: 'error',
+          target: element
+        }
         ])
       }
       if (srcset) {
@@ -1052,15 +1068,15 @@
         if (this.slides[index].firstChild) {
           this.elements[index] = $(this.slides[index]).hasClass(
             this.options.slideErrorClass
-          )
-            ? 3
-            : 2
+            )
+          ? 3
+          : 2
         } else {
           this.elements[index] = 1 // Loading
           $(this.slides[index]).addClass(this.options.slideLoadingClass)
           this.slides[index].appendChild(
             this.createElement(this.list[index], this.proxyListener)
-          )
+            )
         }
       }
     },
@@ -1090,62 +1106,62 @@
           if (
             diff > this.options.preloadRange &&
             diff + this.options.preloadRange < this.num
-          ) {
+            ) {
             this.unloadSlide(i)
-            delete this.elements[i]
-          }
+          delete this.elements[i]
         }
       }
-    },
+    }
+  },
 
-    addSlide: function (index) {
-      var slide = this.slidePrototype.cloneNode(false)
-      slide.setAttribute('data-index', index)
-      this.slidesContainer[0].appendChild(slide)
-      this.slides.push(slide)
-    },
+  addSlide: function (index) {
+    var slide = this.slidePrototype.cloneNode(false)
+    slide.setAttribute('data-index', index)
+    this.slidesContainer[0].appendChild(slide)
+    this.slides.push(slide)
+  },
 
-    positionSlide: function (index) {
-      var slide = this.slides[index]
-      slide.style.width = this.slideWidth + 'px'
-      if (this.support.transform) {
-        slide.style.left = index * -this.slideWidth + 'px'
-        this.move(
-          index,
-          this.index > index
-            ? -this.slideWidth
-            : this.index < index ? this.slideWidth : 0,
-          0
+  positionSlide: function (index) {
+    var slide = this.slides[index]
+    slide.style.width = this.slideWidth + 'px'
+    if (this.support.transform) {
+      slide.style.left = index * -this.slideWidth + 'px'
+      this.move(
+        index,
+        this.index > index
+        ? -this.slideWidth
+        : this.index < index ? this.slideWidth : 0,
+        0
         )
-      }
-    },
+    }
+  },
 
-    initSlides: function (reload) {
-      var clearSlides, i
-      if (!reload) {
-        this.positions = []
-        this.positions.length = this.num
-        this.elements = {}
-        this.imagePrototype = document.createElement('img')
-        this.elementPrototype = document.createElement('div')
-        this.slidePrototype = document.createElement('div')
-        $(this.slidePrototype).addClass(this.options.slideClass)
-        this.slides = this.slidesContainer[0].children
-        clearSlides =
-          this.options.clearSlides || this.slides.length !== this.num
-      }
-      this.slideWidth = this.container[0].offsetWidth
-      this.slideHeight = this.container[0].offsetHeight
-      this.slidesContainer[0].style.width = this.num * this.slideWidth + 'px'
+  initSlides: function (reload) {
+    var clearSlides, i
+    if (!reload) {
+      this.positions = []
+      this.positions.length = this.num
+      this.elements = {}
+      this.imagePrototype = document.createElement('img')
+      this.elementPrototype = document.createElement('div')
+      this.slidePrototype = document.createElement('div')
+      $(this.slidePrototype).addClass(this.options.slideClass)
+      this.slides = this.slidesContainer[0].children
+      clearSlides =
+      this.options.clearSlides || this.slides.length !== this.num
+    }
+    this.slideWidth = this.container[0].offsetWidth
+    this.slideHeight = this.container[0].offsetHeight
+    this.slidesContainer[0].style.width = this.num * this.slideWidth + 'px'
+    if (clearSlides) {
+      this.resetSlides()
+    }
+    for (i = 0; i < this.num; i += 1) {
       if (clearSlides) {
-        this.resetSlides()
+        this.addSlide(i)
       }
-      for (i = 0; i < this.num; i += 1) {
-        if (clearSlides) {
-          this.addSlide(i)
-        }
-        this.positionSlide(i)
-      }
+      this.positionSlide(i)
+    }
       // Reposition the slides before and after the given index:
       if (this.options.continuous && this.support.transform) {
         this.move(this.circle(this.index - 1), -this.slideWidth, 0)
@@ -1153,7 +1169,7 @@
       }
       if (!this.support.transform) {
         this.slidesContainer[0].style.left =
-          this.index * -this.slideWidth + 'px'
+        this.index * -this.slideWidth + 'px'
       }
     },
 
@@ -1202,15 +1218,15 @@
         /\[(?:'([^']+)'|"([^"]+)"|(\d+))\]|(?:(?:^|\.)([^\.\[]+))/g,
         function (str, singleQuoteProp, doubleQuoteProp, arrayIndex, dotProp) {
           var prop =
-            dotProp ||
-            singleQuoteProp ||
-            doubleQuoteProp ||
-            (arrayIndex && parseInt(arrayIndex, 10))
+          dotProp ||
+          singleQuoteProp ||
+          doubleQuoteProp ||
+          (arrayIndex && parseInt(arrayIndex, 10))
           if (str && obj) {
             obj = obj[prop]
           }
         }
-      )
+        )
       return obj
     },
 
@@ -1225,13 +1241,13 @@
       } else if (obj.getAttribute) {
         prop = obj.getAttribute(
           'data-' + property.replace(/([A-Z])/g, '-$1').toLowerCase()
-        )
+          )
       }
       if (typeof prop === 'string') {
         // eslint-disable-next-line no-useless-escape
         if (
           /^(true|false|null|-?\d+(\.\d+)?|\{[\s\S]*\}|\[[\s\S]*\])$/.test(prop)
-        ) {
+          ) {
           try {
             return $.parseJSON(prop)
           } catch (ignore) {}
@@ -1261,13 +1277,13 @@
           if (
             this.list[i] === index ||
             this.getItemProperty(this.list[i], urlProperty) ===
-              this.getItemProperty(index, urlProperty)
-          ) {
+            this.getItemProperty(index, urlProperty)
+            ) {
             index = i
-            break
-          }
+          break
         }
       }
+    }
       // Make sure the index is in the list range:
       this.index = this.circle(parseInt(index, 10) || 0)
     },
@@ -1277,9 +1293,9 @@
       var slidesContainer = this.slidesContainer
       function proxyListener (event) {
         var type =
-          that.support.transition && that.support.transition.end === event.type
-            ? 'transitionend'
-            : event.type
+        that.support.transition && that.support.transition.end === event.type
+        ? 'transitionend'
+        : event.type
         that['on' + type](event)
       }
       $(window).on('resize', proxyListener)
@@ -1289,12 +1305,12 @@
         slidesContainer.on(
           'touchstart touchmove touchend touchcancel',
           proxyListener
-        )
+          )
       } else if (this.options.emulateTouchEvents && this.support.transition) {
         slidesContainer.on(
           'mousedown mousemove mouseup mouseout',
           proxyListener
-        )
+          )
       }
       if (this.support.transition) {
         slidesContainer.on(this.support.transition.end, proxyListener)
@@ -1312,12 +1328,12 @@
         slidesContainer.off(
           'touchstart touchmove touchend touchcancel',
           proxyListener
-        )
+          )
       } else if (this.options.emulateTouchEvents && this.support.transition) {
         slidesContainer.off(
           'mousedown mousemove mouseup mouseout',
           proxyListener
-        )
+          )
       }
       if (this.support.transition) {
         slidesContainer.off(this.support.transition.end, proxyListener)
@@ -1327,6 +1343,13 @@
     handleOpen: function () {
       if (this.options.onopened) {
         this.options.onopened.call(this)
+
+        var text = this.list[this.index].getAttribute('data-description'),
+        node = this.container.find('.description');
+        node.empty();
+        if (text) {
+          node[0].appendChild(document.createTextNode(text));
+        }
       }
     },
 
@@ -1343,17 +1366,17 @@
         this.console.log(
           'blueimp Gallery: Widget container not found.',
           this.options.container
-        )
+          )
         return false
       }
       this.slidesContainer = this.container
-        .find(this.options.slidesContainer)
-        .first()
+      .find(this.options.slidesContainer)
+      .first()
       if (!this.slidesContainer.length) {
         this.console.log(
           'blueimp Gallery: Slides container not found.',
           this.options.slidesContainer
-        )
+          )
         return false
       }
       this.titleElement = this.container.find(this.options.titleElement).first()
@@ -1385,9 +1408,9 @@
       if (
         (options && options.carousel) ||
         (this.options.carousel && (!options || options.carousel !== false))
-      ) {
+        ) {
         $.extend(this.options, this.carouselOptions)
-      }
+    }
       // Override any given options:
       $.extend(this.options, options)
       if (this.num < 3) {
@@ -1404,5 +1427,5 @@
     }
   })
 
-  return Gallery
+return Gallery
 })
