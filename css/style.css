@@ -1116,6 +1116,17 @@ footer img {
     text-align: center;
 }
 
+.projectBar {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url(../img/backgrounds/project.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url(../img/backgrounds/project.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 70% 650%;
+    text-align: center;
+}
+
 
 .size-50 {
     font-size: 50px;
@@ -1385,4 +1396,15 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+}
+
+
+
+/* Project Details Gallery
+==================================================*/
+
+.galleryImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
