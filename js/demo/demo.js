@@ -25,17 +25,17 @@
     dataType: 'jsonp',
     jsonp: 'jsoncallback'
   }).done(function (result) {
-    var carouselLinks = []
+    //var carouselLinks = []
     var linksContainer = $('#links')
     var baseUrl
     // Add the demo images as links with thumbnails to the page:
-    carouselLinks.push(    {
+    /*carouselLinks.push(    {
       description: 'Sintel',
       href: 'https://archive.org/download/Sintel/' +
       'sintel-2048-surround.mp4',
       type: 'video/mp4',
       poster: 'https://i.imgur.com/MUSw4Zu.jpg'
-    })
+    })*/
     
     $('<a/>')
     .append($('<img class="galleryImg">').prop('src', '../img/play-icon.png'))
@@ -55,16 +55,16 @@
       .attr('data-description', photo.title)
       .attr('data-gallery', '')
       .appendTo(linksContainer)
-      carouselLinks.push({
+      /*carouselLinks.push({
         href: baseUrl + '_c.jpg',
         title: photo.title,
         description: photo.title,
-      })
+      })*/
     })
     // Initialize the Gallery as image carousel:
-    blueimp.Gallery(carouselLinks, {
+    /*blueimp.Gallery(carouselLinks, {
       container: '#blueimp-image-carousel',
       carousel: true
-    })
+    })*/
   })
 })
