@@ -10,7 +10,7 @@ projects['parchis'] = {
 	'text'   :  text,
 	'bullets': ['Free Pascal', 'Introduction to algorithm', 'First programming project', "UI Wasn't required"],
 	'banner' : 'projects/data/parchis/banner.png',
-	'cats'   : ['academic'],
+	'cats'   : ['academic','freelance','professional','personal'],
 	'images' : [
 	{
 		description: 'Main menu',

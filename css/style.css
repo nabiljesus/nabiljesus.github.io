@@ -797,6 +797,9 @@ b i:last-child {
 
 /* portfolio section
 ==================================================*/
+.titlecase {
+  text-transform: capitalize;
+}
 
 .portfolio .categories-grid span {
     font-size: 30px;
