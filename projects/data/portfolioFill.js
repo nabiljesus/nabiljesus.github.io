@@ -14,7 +14,7 @@
     console.log(projects);
     $.each(projects, function(key,project) {
       var projectItem = '<div class="col-md-4 col-sm-6 '+project['cats'].join(' ')+'">\
-      <a href="single-project.html#'+key+' " class="portfolio_item">\
+      <a href="project-details.html#'+key+' " class="portfolio_item">\
       <img src="'+project['banner']+'" alt="image" class="img-responsive" />\
       <div class="portfolio_item_hover">\
       <div class="portfolio-border clearfix">\
