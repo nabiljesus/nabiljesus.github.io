@@ -20,7 +20,7 @@ text = '\
 
 projects['apmwsc'] = {
 	'title'  : 'APMwSc',
-	'desc'   : 'A web application to manage a Scrum project',
+	'desc'   : 'A web application to manage Scrum projects',
 	'text'   :  text,
 	'bullets': ['Flask', 'Introduction to Scrum', 'Software Engineering', "5 weeks long", "6 Person teams", "Best team"],
 	'banner' : 'projects/data/apmwsc/banner.png',
