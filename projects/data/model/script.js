@@ -12,7 +12,7 @@ I implemented some text-drawing methods and playing with console-clear we ended 
 '
 
 projects['parchis'] = {
-	'title'  : 'Parchis USB',
+	'title'  : 'MODEL SCRIPT',
 	'desc'   : 'Simple board game using Pascal',
 	'text'   :  text,
 	'bullets': ['Free Pascal', 'Introduction to algorithm', 'First programming project', "UI Wasn't required, yet implemented", "4 weeks long", "2 Person teams"],
@@ -31,8 +31,8 @@ projects['parchis'] = {
 	},
 	{
 		description: 'Player\'s Turn',
-		href: 'projects/data/parchis/images/3.png',
-		poster: 'projects/data/parchis/images/3.png'
+		href: 'projects/data/parchis/images/2.png',
+		poster: 'projects/data/parchis/images/2.png'
 	},
 	],
 	'videos' : [

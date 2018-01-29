@@ -24,7 +24,7 @@
     $('.projectText').html(currProject['text']);
 
     // Set project brief Banner
-    $('.projectBanner').html('<img src="'+currProject['banner']+'" alt="" class="img-responsive" />');
+    $('.projectBanner').html('<img src="'+currProject['banner']+'" alt="" class="img-responsive project-banner" />');
 
     // Set project bullets
     if (currProject['bullets']){

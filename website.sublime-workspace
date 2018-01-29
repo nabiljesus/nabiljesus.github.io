@@ -107,7 +107,16 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 5431,
+				"buffer_size": 5433,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7325,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -125,9 +134,19 @@
 			"file": "projects/data/parchis/script.js",
 			"settings":
 			{
-				"buffer_size": 1501,
+				"buffer_size": 2674,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 614 files for \"single-project\"\n\n/home/nabil/projects/nabiljesus.github.io/index.html:\n   84              <!-- single work -->\n   85              <div class=\"col-md-3 col-sm-6  fashion logo\">\n   86:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n   87                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   88                      <div class=\"portfolio_item_hover\">\n   ..\n  100              <!-- single work -->\n  101              <div class=\"col-md-3 col-sm-6 academic freelance\">\n  102:                 <a href=\"single-project.html#parchis\" class=\"portfolio_item\">\n  103                      <img src=\"projects/data/parchis/banner.png\" alt=\"image\" class=\"img-responsive\" />\n  104                      <div class=\"portfolio_item_hover\">\n  ...\n  119              <!-- single work -->\n  120              <div class=\"col-md-6 col-sm-12 photography\">\n  121:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  122                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  123                      <div class=\"portfolio_item_hover\">\n  ...\n  135              <!-- single work -->\n  136              <div class=\"col-md-3 col-sm-6 fashion ads\">\n  137:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  138                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  139                      <div class=\"portfolio_item_hover\">\n  ...\n  151              <!-- single work -->\n  152              <div class=\"col-md-3 col-sm-6 graphics ads\">\n  153:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  154                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  155                      <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/index2.html:\n   78                  <!-- single work -->\n   79                  <div class=\"col-md-3 col-sm-6  fashion logo\">\n   80:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   81                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   82                          <div class=\"portfolio_item_hover\">\n   ..\n   94                  <!-- single work -->\n   95                  <div class=\"col-md-3 col-sm-6 ads graphics\">\n   96:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   97                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   98                          <div class=\"portfolio_item_hover\">\n   ..\n  110                  <!-- single work -->\n  111                  <div class=\"col-md-6 col-sm-12 photography\">\n  112:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  113                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  114                          <div class=\"portfolio_item_hover\">\n  ...\n  126                  <!-- single work -->\n  127                  <div class=\"col-md-3 col-sm-6 fashion ads\">\n  128:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  129                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  130                          <div class=\"portfolio_item_hover\">\n  ...\n  142                  <!-- single work -->\n  143                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  144:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  145                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  146                          <div class=\"portfolio_item_hover\">\n  ...\n  158                  <!-- single work -->\n  159                  <div class=\"col-md-6 col-sm-12 photography\">\n  160:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  161                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  162                          <div class=\"portfolio_item_hover\">\n  ...\n  174                  <!-- single work -->\n  175                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  176:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  177                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  178                          <div class=\"portfolio_item_hover\">\n  ...\n  190                  <!-- single work -->\n  191                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  192:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  193                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  194                          <div class=\"portfolio_item_hover\">\n  ...\n  206                  <!-- single work -->\n  207                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  208:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  209                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  210                          <div class=\"portfolio_item_hover\">\n  ...\n  222                  <!-- single work -->\n  223                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  224:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  225                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  226                          <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/projects.html:\n   82                  <!-- single work -->\n   83                  <div class=\"col-md-4 col-sm-6 freelance personal\">\n   84:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   85                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   86                          <div class=\"portfolio_item_hover\">\n   ..\n   99                  <!-- single work -->\n  100                  <div class=\"col-md-4 col-sm-6 freelance personal\">\n  101:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  102                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  103                          <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/projects/data/portfolioFill.js:\n   15      $.each(projects, function(key,project) {\n   16        var projectItem = '<div class=\"col-md-4 col-sm-6 '+project['cats'].join(' ')+'\">\\\n   17:       <a href=\"single-project.html#'+key+' \" class=\"portfolio_item\">\\\n   18        <img src=\"'+project['banner']+'\" alt=\"image\" class=\"img-responsive\" />\\\n   19        <div class=\"portfolio_item_hover\">\\\n\n18 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 6956,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
@@ -183,15 +202,15 @@
 	],
 	"file_history":
 	[
-		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/portfolioFill.js",
+		"/home/nabil/projects/nabiljesus.github.io/index.html",
+		"/home/nabil/projects/nabiljesus.github.io/index2.html",
+		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
 		"/home/nabil/projects/nabiljesus.github.io/js/demo/demo.js",
 		"/home/nabil/projects/nabiljesus.github.io/contact.html",
-		"/home/nabil/projects/nabiljesus.github.io/index.html",
 		"/home/nabil/projects/nabiljesus.github.io/services.html",
 		"/home/nabil/projects/nabiljesus.github.io/about.html",
 		"/home/nabil/projects/nabiljesus.github.io/single-project.html",
-		"/home/nabil/projects/nabiljesus.github.io/index2.html",
 		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
 		"/home/nabil/projects/nabiljesus.github.io/js/blueimp-gallery.js",
 		"/home/nabil/projects/nabiljesus.github.io/navbar.html",
@@ -329,6 +348,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"single-project",
 			"portfolio",
 			"portfolio_container",
 			"parchis",
@@ -421,6 +441,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"project-details",
 			"lance",
 			"Freelance",
 			"<em class=\"freelance\"> Freelance",
@@ -452,7 +473,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -461,28 +482,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5431,
+						"buffer_size": 5433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1139,
-								1139
+								560,
+								560
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 1426,
-								"count": 218,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -491,11 +503,41 @@
 						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4514,
+								4514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 897.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "navbar.html",
 					"semi_transient": false,
 					"settings":
@@ -507,15 +549,15 @@
 						"selection":
 						[
 							[
-								857,
-								857
+								881,
+								881
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 18,
+								"changes": 0,
 								"count": 39,
 								"modified": false,
 								"selection": false,
@@ -530,24 +572,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "projects/data/parchis/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1501,
+						"buffer_size": 2674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
+								1451,
+								1451
 							]
 						],
 						"settings":
@@ -558,7 +600,7 @@
 								"modified": true,
 								"selection": true,
 								"status": -1,
-								"syntax": "javascript"
+								"syntax": "plain text"
 							},
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -567,11 +609,133 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6956,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										233,
+										247
+									],
+									[
+										594,
+										608
+									],
+									[
+										960,
+										974
+									],
+									[
+										1314,
+										1328
+									],
+									[
+										1669,
+										1683
+									],
+									[
+										2087,
+										2101
+									],
+									[
+										2462,
+										2476
+									],
+									[
+										2837,
+										2851
+									],
+									[
+										3211,
+										3225
+									],
+									[
+										3586,
+										3600
+									],
+									[
+										3961,
+										3975
+									],
+									[
+										4336,
+										4350
+									],
+									[
+										4711,
+										4725
+									],
+									[
+										5086,
+										5100
+									],
+									[
+										5461,
+										5475
+									],
+									[
+										5894,
+										5908
+									],
+									[
+										6275,
+										6289
+									],
+									[
+										6740,
+										6754
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "projects/data/script-model.js",
 					"semi_transient": false,
 					"settings":
@@ -591,21 +755,21 @@
 						{
 							"WordCount":
 							{
-								"changes": 21,
-								"count": 2,
+								"changes": -1,
 								"modified": true,
 								"selection": true,
 								"status": -1,
-								"syntax": "javascript"
+								"syntax": "plain text"
 							},
 							"auto_name": "var parchis = {}",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -974,7 +1138,11 @@
 		[
 			[
 				"",
-				"~/darient/cw_app/cw_app.sublime-project"
+				"~/darient/miclave_app/miclave_app.sublime-project"
+			],
+			[
+				"mic",
+				"~/darient/miclave_app/miclave_app.sublime-project"
 			],
 			[
 				"cw",
@@ -983,10 +1151,6 @@
 			[
 				"libr",
 				"~/natuchips/libro/libro.sublime-project"
-			],
-			[
-				"mic",
-				"~/darient/miclave_app/miclave_app.sublime-project"
 			],
 			[
 				"dari",
