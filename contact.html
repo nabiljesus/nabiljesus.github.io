@@ -7,17 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Nabil J. Márquez</title>
-
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link rel="icon" href="img/fav.png" type="image/x-icon">
-
   <!-- main css -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- toaster css -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +37,17 @@
     </div>
     <!-- end Preloader -->
     <div id="navbar"></div>
-    
+
+
+    <!-- Css Loader -->
+    <noscript id="deferred-styles">
+      <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+      <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+      <!-- toaster css -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+    </noscript>
+
     <!-- top bar -->
     <div class="top-bar contactBar">
       <h1>&lt; contact-me /&gt;</h1>
@@ -162,6 +165,21 @@
     $('form').preventDoubleSubmission();
 
     </script>
+
+    <script>
+    var loadDeferredStyles = function() {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
 
   </body>
 
