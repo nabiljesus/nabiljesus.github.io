@@ -1091,6 +1091,15 @@ footer img {
     padding: 150px 0 150px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url(../img/backgrounds/contact.jpg);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url(../img/backgrounds/contact.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)),  -webkit-image-set(
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_480.jpg) 1x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_749.jpg) 2x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_894.jpg) 3x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_959.jpg) 4x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_1083.jpg) 5x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_1356.jpg) 6x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_1399.jpg) 7x,
+       url(../img/backgrounds/contact_cklnbm/contact_cklnbm_c_scale,w_1400.jpg) 8x);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
