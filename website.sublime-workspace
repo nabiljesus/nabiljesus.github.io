@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"develo",
+				"development"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
 				"pro",
 				"project"
 			],
@@ -44,20 +56,12 @@
 				"ImgDiv"
 			],
 			[
-				"marg",
-				"margin-right"
-			],
-			[
 				"di",
 				"div\tTag"
 			],
 			[
 				"wid",
 				"width"
-			],
-			[
-				"max",
-				"max-height"
 			],
 			[
 				"backgr",
@@ -104,10 +108,19 @@
 	"buffers":
 	[
 		{
-			"file": "projects.html",
+			"file": "project-details.html",
 			"settings":
 			{
-				"buffer_size": 5433,
+				"buffer_size": 4974,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 4525,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -116,47 +129,47 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7325,
+				"buffer_size": 7394,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "navbar.html",
+			"contents": "Package Control Messages\n========================\n\nSass\n----\n\n  Here is an announcement about the \"Syntax Highlighting for Sass\"\n  package taking over the name of the \"Sass\" package. \"Syntax\n  Highlighting for Sass\" will be/have been removed from package\n  control, and I will keep maintaining the new \"Sass\" package.\n  \n  For the original \"Sass\" package users, please note that the new\n  package doesn't provide any CSS code snippets, you may need to\n  install Emmet (https://packagecontrol.io/packages/Emmet) for CSS\n  snippets. You could find more details about this package on:\n  https://github.com/P233/Syntax-highlighting-for-Sass\n  \n  For the original \"Syntax Highlighting for Sass\" users, the moving\n  over process will be executed automatically, but for future manual\n  installation, please search the name \"Sass\".\n  \n  If you have any further questions or suggestions, please feel free\n  to create an issue on GitHub.\n  \n  https://github.com/P233/Syntax-highlighting-for-Sass/issues\n  \n  Cheers,\n  Peiwen Lu\n",
 			"settings":
 			{
-				"buffer_size": 1456,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "projects/data/parchis/script.js",
-			"settings":
-			{
-				"buffer_size": 2674,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 614 files for \"single-project\"\n\n/home/nabil/projects/nabiljesus.github.io/index.html:\n   84              <!-- single work -->\n   85              <div class=\"col-md-3 col-sm-6  fashion logo\">\n   86:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n   87                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   88                      <div class=\"portfolio_item_hover\">\n   ..\n  100              <!-- single work -->\n  101              <div class=\"col-md-3 col-sm-6 academic freelance\">\n  102:                 <a href=\"single-project.html#parchis\" class=\"portfolio_item\">\n  103                      <img src=\"projects/data/parchis/banner.png\" alt=\"image\" class=\"img-responsive\" />\n  104                      <div class=\"portfolio_item_hover\">\n  ...\n  119              <!-- single work -->\n  120              <div class=\"col-md-6 col-sm-12 photography\">\n  121:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  122                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  123                      <div class=\"portfolio_item_hover\">\n  ...\n  135              <!-- single work -->\n  136              <div class=\"col-md-3 col-sm-6 fashion ads\">\n  137:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  138                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  139                      <div class=\"portfolio_item_hover\">\n  ...\n  151              <!-- single work -->\n  152              <div class=\"col-md-3 col-sm-6 graphics ads\">\n  153:                 <a href=\"single-project.html\" class=\"portfolio_item\">\n  154                      <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  155                      <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/index2.html:\n   78                  <!-- single work -->\n   79                  <div class=\"col-md-3 col-sm-6  fashion logo\">\n   80:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   81                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   82                          <div class=\"portfolio_item_hover\">\n   ..\n   94                  <!-- single work -->\n   95                  <div class=\"col-md-3 col-sm-6 ads graphics\">\n   96:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   97                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   98                          <div class=\"portfolio_item_hover\">\n   ..\n  110                  <!-- single work -->\n  111                  <div class=\"col-md-6 col-sm-12 photography\">\n  112:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  113                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  114                          <div class=\"portfolio_item_hover\">\n  ...\n  126                  <!-- single work -->\n  127                  <div class=\"col-md-3 col-sm-6 fashion ads\">\n  128:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  129                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  130                          <div class=\"portfolio_item_hover\">\n  ...\n  142                  <!-- single work -->\n  143                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  144:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  145                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  146                          <div class=\"portfolio_item_hover\">\n  ...\n  158                  <!-- single work -->\n  159                  <div class=\"col-md-6 col-sm-12 photography\">\n  160:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  161                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  162                          <div class=\"portfolio_item_hover\">\n  ...\n  174                  <!-- single work -->\n  175                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  176:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  177                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  178                          <div class=\"portfolio_item_hover\">\n  ...\n  190                  <!-- single work -->\n  191                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  192:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  193                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  194                          <div class=\"portfolio_item_hover\">\n  ...\n  206                  <!-- single work -->\n  207                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  208:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  209                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  210                          <div class=\"portfolio_item_hover\">\n  ...\n  222                  <!-- single work -->\n  223                  <div class=\"col-md-3 col-sm-6 graphics ads\">\n  224:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  225                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  226                          <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/projects.html:\n   82                  <!-- single work -->\n   83                  <div class=\"col-md-4 col-sm-6 freelance personal\">\n   84:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n   85                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n   86                          <div class=\"portfolio_item_hover\">\n   ..\n   99                  <!-- single work -->\n  100                  <div class=\"col-md-4 col-sm-6 freelance personal\">\n  101:                     <a href=\"single-project.html\" class=\"portfolio_item\">\n  102                          <img src=\"http://placehold.it/1000x1000\" alt=\"image\" class=\"img-responsive\" />\n  103                          <div class=\"portfolio_item_hover\">\n\n/home/nabil/projects/nabiljesus.github.io/projects/data/portfolioFill.js:\n   15      $.each(projects, function(key,project) {\n   16        var projectItem = '<div class=\"col-md-4 col-sm-6 '+project['cats'].join(' ')+'\">\\\n   17:       <a href=\"single-project.html#'+key+' \" class=\"portfolio_item\">\\\n   18        <img src=\"'+project['banner']+'\" alt=\"image\" class=\"img-responsive\" />\\\n   19        <div class=\"portfolio_item_hover\">\\\n\n18 matches across 4 files\n",
-			"settings":
-			{
-				"buffer_size": 6956,
+				"buffer_size": 1018,
 				"line_ending": "Unix",
-				"name": "Find Results",
+				"name": "Package Control Messages",
+				"read_only": true,
 				"scratch": true
 			}
 		},
 		{
-			"file": "projects/data/script-model.js",
+			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 1000,
+				"buffer_size": 16090,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 6077,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "mapeo dict master\nmapa filtros y pin de ubicación\nvista inicial mis cuentas asoiciadas despues del login\nNueva Vista de configuración\nCablear el servicio de pago\nVista de mas\nCamibar imagen del menu\nOcultar logo de arriba en tabs del perfil\nColor 50 50 perfil tabs\nTabs en la vista de login\nlink de livechat es otro\nRotacion banner cada 5 segundos\nBOton de Back no exit\nBotones gorditos\nNueva vista de login\nOtras correciones visuales por pasar",
+			"settings":
+			{
+				"buffer_size": 444,
 				"line_ending": "Unix",
-				"name": "var parchis = {}"
+				"name": "mapeo dict master"
 			}
 		}
 	],
@@ -167,7 +180,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 132.0,
+		"height": 162.0,
 		"last_filter": "instal",
 		"selected_items":
 		[
@@ -176,7 +189,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 479.0
+		"width": 515.0
 	},
 	"console":
 	{
@@ -198,24 +211,59 @@
 	"expanded_folders":
 	[
 		"/home/nabil/projects/nabiljesus.github.io",
-		"/home/nabil/projects/nabiljesus.github.io/js"
+		"/home/nabil/projects/nabiljesus.github.io/fonts",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/arrows",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/arrows/ICONFONT",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/basic",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/basice",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/basice/ICONFONT",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/ecommerce",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/ecommerce/ICONFONT",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/music",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/software",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/weather",
+		"/home/nabil/projects/nabiljesus.github.io/projects",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/spaceinvaders"
 	],
 	"file_history":
 	[
+		"/home/nabil/Supergirl.S03E12.HDTV.x264-KILLERS[ettv]/Supergirl - 03x12 - For Good (HI).srt",
+		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_music/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/basice/ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/ionicons/css/ionicons.min.css",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/projectFill.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects.html",
+		"/home/nabil/projects/nabiljesus.github.io/contact.html",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/hola.css",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/freelancer/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/spaceinvaders/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_software/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_weather/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_ecommerce/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_basic_elaboration/_ICONFONT/styles.css",
+		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_basic/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/portfolioFill.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/freenlancer/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/js/animated-headline.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/apmwsc/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/parchis/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/navbar.html",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/space/script.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/script-model.js",
+		"/home/nabil/projects/nabiljesus.github.io/projects/data/model/script.js",
 		"/home/nabil/projects/nabiljesus.github.io/index.html",
 		"/home/nabil/projects/nabiljesus.github.io/index2.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
 		"/home/nabil/projects/nabiljesus.github.io/js/demo/demo.js",
-		"/home/nabil/projects/nabiljesus.github.io/contact.html",
 		"/home/nabil/projects/nabiljesus.github.io/services.html",
 		"/home/nabil/projects/nabiljesus.github.io/about.html",
 		"/home/nabil/projects/nabiljesus.github.io/single-project.html",
-		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
 		"/home/nabil/projects/nabiljesus.github.io/js/blueimp-gallery.js",
-		"/home/nabil/projects/nabiljesus.github.io/navbar.html",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/projects.js",
-		"/home/nabil/projects/nabiljesus.github.io/projects/data/projectFill.js",
 		"/home/nabil/projects/nabiljesus.github.io/css/blueimp-gallery.css",
 		"/home/nabil/projects/nabiljesus.github.io/Gallery-2.30.0/js/demo/demo.js",
 		"/home/nabil/projects/nabiljesus.github.io/Gallery-2.30.0/index.html",
@@ -230,20 +278,15 @@
 		"/home/nabil/projects/mahisoft/preg1.py",
 		"/home/nabil/projects/mahisoft/preg2.py",
 		"/home/nabil/darient/darienconnect/darientSessions/views.py",
-		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/js/jquery.tagcanvas.js",
 		"/home/nabil/projects/nabiljesus.github.io/js/tagcanvas.js",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.css",
-		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_software/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/js/menu.js",
 		"/home/nabil/projects/nabiljesus.github.io/loader.html",
-		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_basic_elaboration/_ICONFONT/styles.css",
-		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_weather/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.json",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.min.css",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon-colors.css",
 		"/home/nabil/projects/nabiljesus.github.io/devicon.css",
-		"/home/nabil/projects/nabiljesus.github.io/js/animated-headline.js",
 		"/home/nabil/projects/nabiljesus.github.io/LICENSE",
 		"/var/www/html/index.nginx-debian.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/w3.js",
@@ -313,23 +356,7 @@
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/apps/message.css",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/apps/message.min.css",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/brown.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/brown.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/cyan.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/cyan.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/green.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/green.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/grey.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/grey.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/indigo.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/skins/indigo.min.css",
-		"/home/nabil/Downloads/6g5fe6o5hp4nctq0eato7uspwi9ca3.html",
-		"/home/nabil/darient/darienconnect/static/img/cliparts/ResponsiveIconGrid/css/icongrid_default.css",
-		"/home/nabil/work/darient/darienconnect/static/assets/fonts/icomoon.css",
-		"/home/nabil/darient/darienconnect/static/img/cliparts/ResponsiveIconGrid/css/icongrid.css",
-		"/home/nabil/work/darient/npm-bin-demo/package.json",
-		"/home/nabil/work/darient/darienconnect/darienCampaigns/templates/publish_campaign.html"
+		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.min.css"
 	],
 	"find":
 	{
@@ -348,6 +375,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"googlea",
+			"google",
+			"_",
+			"../../../",
+			"CLick",
+			"barWaiting",
+			"box-word",
 			"single-project",
 			"portfolio",
 			"portfolio_container",
@@ -441,6 +475,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"./fonts/",
 			"project-details",
 			"lance",
 			"Freelance",
@@ -473,92 +509,32 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "projects.html",
+					"file": "project-details.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5433,
+						"buffer_size": 4974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								560,
-								560
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 78.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4514,
-								4514
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 897.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1456,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								881,
-								881
+								1643,
+								1643
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 39,
+								"changes": 3,
+								"count": 240,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -569,163 +545,43 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "projects/data/parchis/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1451,
-								1451
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 448.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 1,
+					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6956,
+						"buffer_size": 4525,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										233,
-										247
-									],
-									[
-										594,
-										608
-									],
-									[
-										960,
-										974
-									],
-									[
-										1314,
-										1328
-									],
-									[
-										1669,
-										1683
-									],
-									[
-										2087,
-										2101
-									],
-									[
-										2462,
-										2476
-									],
-									[
-										2837,
-										2851
-									],
-									[
-										3211,
-										3225
-									],
-									[
-										3586,
-										3600
-									],
-									[
-										3961,
-										3975
-									],
-									[
-										4336,
-										4350
-									],
-									[
-										4711,
-										4725
-									],
-									[
-										5086,
-										5100
-									],
-									[
-										5461,
-										5475
-									],
-									[
-										5894,
-										5908
-									],
-									[
-										6275,
-										6289
-									],
-									[
-										6740,
-										6754
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								352,
+								352
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
+								"changes": 3,
+								"count": 362,
+								"modified": false,
+								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -735,35 +591,77 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "projects/data/script-model.js",
+					"buffer": 2,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1000,
+						"buffer_size": 7394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								725,
-								725
+								6314,
+								6314
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
+								"changes": 0,
+								"count": 251,
+								"modified": false,
+								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"auto_name": "var parchis = {}",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1680.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1018,
+								1018
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1018,
+								"count": 129,
+								"modified": true,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"tab_width": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -771,13 +669,128 @@
 					},
 					"stack_index": 5,
 					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "services.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2657,
+								2657
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 75,
+								"count": 609,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2347,
+								2347
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 2975,
+								"count": 287,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 447,
+								"count": 75,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_name": "mapeo dict master",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 48.0
 	},
 	"input":
 	{
@@ -818,7 +831,7 @@
 	"project": "website.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -827,6 +840,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"ionicons",
+				"ionicons/css/ionicons.min.css"
+			],
 			[
 				"abo",
 				"about.html"
@@ -840,16 +861,20 @@
 				"css/style.css"
 			],
 			[
+				"ser",
+				"services.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
 				"por",
 				"portfolio.html"
 			],
 			[
 				"singl",
 				"single-project.html"
-			],
-			[
-				"sty",
-				"css/style.css"
 			],
 			[
 				"about",
@@ -1133,9 +1158,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "cw",
 		"selected_items":
 		[
+			[
+				"cw",
+				"~/darient/cw_app/cw_app.sublime-project"
+			],
 			[
 				"",
 				"~/darient/miclave_app/miclave_app.sublime-project"
@@ -1143,10 +1172,6 @@
 			[
 				"mic",
 				"~/darient/miclave_app/miclave_app.sublime-project"
-			],
-			[
-				"cw",
-				"~/darient/cw_app/cw_app.sublime-project"
 			],
 			[
 				"libr",
