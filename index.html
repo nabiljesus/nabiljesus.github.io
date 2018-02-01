@@ -11,14 +11,9 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
-
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,6 +38,12 @@
   </div>
   <!-- end Preloader -->
   <div id="navbar"></div>
+
+  <!-- Css Loader -->
+  <noscript id="deferred-styles">
+      <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+      <link rel="icon" href="img/fav.png" type="image/x-icon">
+  </noscript>
 
   <!-- box-intro -->
   <section class="box-intro">
@@ -171,6 +172,9 @@
 
 <div id="footer"></div>
 
+
+<!-- modernizr -->
+<script src="js/modernizr.js"></script>
 <!-- jQuery -->
 <script src="js/jquery-2.1.1.js"></script>
 <!--  plugins -->
@@ -182,6 +186,21 @@
 
 <!--  custom script -->
 <script src="js/custom.js"></script>
+
+<!-- deferred-styles load -->
+<script>
+var loadDeferredStyles = function() {
+  var addStylesNode = document.getElementById("deferred-styles");
+  var replacement = document.createElement("div");
+  replacement.innerHTML = addStylesNode.textContent;
+  document.body.appendChild(replacement)
+  addStylesNode.parentElement.removeChild(addStylesNode);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+else window.addEventListener('load', loadDeferredStyles);
+</script>
 
 </body>
 
