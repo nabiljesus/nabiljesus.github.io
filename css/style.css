@@ -1304,6 +1304,13 @@ textarea:focus {
     margin: auto;
 }
 
+@media only screen and (max-width: 499px) {
+    .project-banner {
+        max-width: 100%;
+    }
+
+}
+
 .cat-ul {
     padding-left: 0;
     list-style: none
