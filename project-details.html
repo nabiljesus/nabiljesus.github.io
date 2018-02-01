@@ -7,23 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Nabil J. Márquez</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
-
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- Gallery Stuff -->
-    <link rel="stylesheet" href="css/blueimp-gallery.css">
-    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
-    <link rel="stylesheet" href="css/blueimp-gallery-video.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,9 +37,18 @@
   <!-- end Preloader -->
   <div id="navbar"></div>
 
-  
-  <!-- top-bar -->
-  <div class="top-bar projectBar">
+  <!-- Css Loader -->
+  <noscript id="deferred-styles">
+    <!-- Gallery Stuff -->
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blueimp-gallery.css">
+    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+    <link rel="stylesheet" href="css/blueimp-gallery-video.css">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+</noscript>
+
+<!-- top-bar -->
+<div class="top-bar projectBar">
     <h1>&lt; <span class="projectTitle">project title</span> /&gt;</h1>
     <p><a href="index.html">Home</a> / <a href="projects.html">projects</a> / <span class="projectTitle">&lt;project title&gt;</span></p>
 </div>
@@ -113,6 +111,8 @@
     <ol class="indicator"></ol>
 </div>
 
+<!-- modernizr -->
+<script src="js/modernizr.js"></script>
 <!-- jQuery -->
 <script src="js/jquery-2.1.1.js"></script>
 <!--  plugins -->

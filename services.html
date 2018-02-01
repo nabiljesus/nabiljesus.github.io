@@ -7,42 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Nabil J. Márquez</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="css/devicon.css" rel="stylesheet">
-    <link href="css/devicon.css" rel="stylesheet">
-    <link href="fonts/linea/basic/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/software/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/basice/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/arrows/ICONFONT/styles.css" rel="stylesheet">
-
     <!-- main css -->
     <link href="css/style.min.css" rel="stylesheet">
 
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/getDescription.js"></script>
-
-    <script type="text/javascript">
-
-    function showTool(elem){
-        $(".canvasText").fadeOut('fast', function(){
-            document.getElementById('ImgDiv').innerHTML = elem.getElementsByTagName('img')[0].outerHTML ;
-            document.getElementById('TitleDiv').innerHTML = '<h3>'+elem.innerText+'</h3>' ;
-            document.getElementById('TextDiv').innerHTML = getDescription($.trim(elem.innerText));
-            console.log(elem.getElementsByTagName('img')[0].outerHTML );
-            console.log(elem.innerText);
-        }).fadeIn('fast');
-
-        return false;
-    }
-    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,9 +23,6 @@
 </head>
 
 <body>
-
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
@@ -69,8 +37,21 @@
   <!-- end Preloader -->
   <div id="navbar"></div>
 
-  <!-- top bar -->
-  <div class="top-bar servicesBar">
+  <!-- Css Loader -->
+  <noscript id="deferred-styles">
+    <!-- Fonts -->
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/devicon.css" rel="stylesheet">
+    <link href="css/devicon.css" rel="stylesheet">
+    <link href="fonts/linea/basic/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/software/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/basice/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/arrows/ICONFONT/styles.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+</noscript>
+
+<!-- top bar -->
+<div class="top-bar servicesBar">
     <h1>&lt; services /&gt;</h1>
     <p><a href="index.html">Home</a> / Services</p>
 </div>
@@ -295,7 +276,24 @@
 <!-- end back to top -->
 
 
+<!-- modernizr -->
+<script src="js/modernizr.js"></script>
+<script src="js/getDescription.js"></script>
 
+<script type="text/javascript">
+
+function showTool(elem){
+    $(".canvasText").fadeOut('fast', function(){
+        document.getElementById('ImgDiv').innerHTML = elem.getElementsByTagName('img')[0].outerHTML ;
+        document.getElementById('TitleDiv').innerHTML = '<h3>'+elem.innerText+'</h3>' ;
+        document.getElementById('TextDiv').innerHTML = getDescription($.trim(elem.innerText));
+        console.log(elem.getElementsByTagName('img')[0].outerHTML );
+        console.log(elem.innerText);
+    }).fadeIn('fast');
+
+    return false;
+}
+</script>
 <!-- jQuery -->
 <script src="js/jquery-2.1.1.js"></script>
 <!--  plugins -->
@@ -346,6 +344,20 @@ $(document).ready(function() {
    }
 });
 
+</script>
+<!-- deferred-styles load -->
+<script>
+var loadDeferredStyles = function() {
+  var addStylesNode = document.getElementById("deferred-styles");
+  var replacement = document.createElement("div");
+  replacement.innerHTML = addStylesNode.textContent;
+  document.body.appendChild(replacement)
+  addStylesNode.parentElement.removeChild(addStylesNode);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+else window.addEventListener('load', loadDeferredStyles);
 </script>
 
 </body>
