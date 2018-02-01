@@ -10,7 +10,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/blueimp-gallery.css">
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
@@ -40,8 +39,9 @@
 
   <!-- Css Loader -->
   <noscript id="deferred-styles">
-    <!-- Gallery Stuff -->
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- Gallery Stuff -->
+    <link rel="stylesheet" href="css/blueimp-gallery.css">
     <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
     <link rel="stylesheet" href="css/blueimp-gallery-video.css">
     <link rel="icon" href="img/fav.png" type="image/x-icon">
@@ -112,13 +112,13 @@
 </div>
 
 <!-- modernizr -->
-<script src="js/modernizr.js"></script>
+<script async src="js/modernizr.js"></script>
 <!-- jQuery -->
 <script src="js/jquery-2.1.1.js"></script>
 <!--  plugins -->
 <script src="js/bootstrap.min.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
+<script async src="js/menu.js"></script>
+<script async src="js/isotope.pkgd.min.js"></script>
 
 <!--  Project Data -->
 <script src="projects/data/projects.js"></script>
@@ -131,17 +131,31 @@
 <!--  custom script -->
 <script src="js/custom.js"></script>
 
-<script src="js/blueimp-helper.js"></script>
-<script src="js/blueimp-gallery.js"></script>
-<script src="js/blueimp-gallery-fullscreen.js"></script>
-<script src="js/blueimp-gallery-indicator.js"></script>
-<script src="js/blueimp-gallery-video.js"></script>
-<script src="js/blueimp-gallery-vimeo.js"></script>
-<script src="js/blueimp-gallery-youtube.js"></script>
-<script src="js/vendor/jquery.js"></script>
-<script src="js/jquery.blueimp-gallery.js"></script>
-<script src="js/demo/demo.js"></script>
+<script async src="js/blueimp-helper.js"></script>
+<script async src="js/blueimp-gallery.js"></script>
+<script async src="js/blueimp-gallery-fullscreen.js"></script>
+<script async src="js/blueimp-gallery-indicator.js"></script>
+<script async src="js/blueimp-gallery-video.js"></script>
+<script async src="js/blueimp-gallery-vimeo.js"></script>
+<script async src="js/blueimp-gallery-youtube.js"></script>
+<script async src="js/vendor/jquery.js"></script>
+<script async src="js/jquery.blueimp-gallery.js"></script>
+<script async src="js/demo/demo.js"></script>
 
+<!-- deferred-styles load -->
+<script>
+var loadDeferredStyles = function() {
+  var addStylesNode = document.getElementById("deferred-styles");
+  var replacement = document.createElement("div");
+  replacement.innerHTML = addStylesNode.textContent;
+  document.body.appendChild(replacement)
+  addStylesNode.parentElement.removeChild(addStylesNode);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+else window.addEventListener('load', loadDeferredStyles);
+</script>
 </body>
 
 </html>
