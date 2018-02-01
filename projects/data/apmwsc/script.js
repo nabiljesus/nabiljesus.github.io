@@ -28,52 +28,52 @@ projects['apmwsc'] = {
 	'images' : [
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/1.png',
+		href: 'projects/data/apmwsc/images/1_full.png',
 		poster: 'projects/data/apmwsc/images/1.png'
 	},
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/2.png',
+		href: 'projects/data/apmwsc/images/2_full.png',
 		poster: 'projects/data/apmwsc/images/2.png'
 	},
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/3.png',
+		href: 'projects/data/apmwsc/images/3_full.png',
 		poster: 'projects/data/apmwsc/images/3.png'
 	},
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/4.png',
+		href: 'projects/data/apmwsc/images/4_full.png',
 		poster: 'projects/data/apmwsc/images/4.png'
 	},
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/5.png',
+		href: 'projects/data/apmwsc/images/5_full.png',
 		poster: 'projects/data/apmwsc/images/5.png'
 	},
 	{
 		description: 'App Capture',
-		href: 'projects/data/apmwsc/images/6.png',
+		href: 'projects/data/apmwsc/images/6_full.png',
 		poster: 'projects/data/apmwsc/images/6.png'
 	},
 	{
 		description: 'DSAD Team Logo',
-		href: 'projects/data/apmwsc/images/7.png',
+		href: 'projects/data/apmwsc/images/7_full.png',
 		poster: 'projects/data/apmwsc/images/7.png'
 	},
 	{
 		description: 'DSAD Team',
-		href: 'projects/data/apmwsc/images/8.jpg',
+		href: 'projects/data/apmwsc/images/8_full.jpg',
 		poster: 'projects/data/apmwsc/images/8.jpg'
 	},
 	{
 		description: 'DSAD Team best development team 2015',
-		href: 'projects/data/apmwsc/images/9.png',
+		href: 'projects/data/apmwsc/images/9_full.png',
 		poster: 'projects/data/apmwsc/images/9.png'
 	},
 	{
 		description: 'Nabil Most valuable member',
-		href: 'projects/data/apmwsc/images/10.png',
+		href: 'projects/data/apmwsc/images/10_full.png',
 		poster: 'projects/data/apmwsc/images/10.png'
 	}
 	],
