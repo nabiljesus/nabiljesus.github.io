@@ -95,8 +95,18 @@
   <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
   <!-- end back to top -->
 
+  <!-- jQuery -->
+  <script src="js/jquery-2.1.1.js"></script>
+
+    <!-- modernizr -->
+  <script async src="js/modernizr.js"></script>
+  <!--  plugins -->
+  <script async src="js/bootstrap.min.js"></script>
+  <script async src="js/menu.js"></script>
+  <script async src="js/isotope.pkgd.min.js"></script>
+
   <!-- deferred-styles load -->
-  <script>
+  <script async>
   var loadDeferredStyles = function() {
     var addStylesNode = document.getElementById("deferred-styles");
     var replacement = document.createElement("div");
@@ -109,16 +119,6 @@
   if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
   else window.addEventListener('load', loadDeferredStyles);
   </script>
-
-  <!-- modernizr -->
-  <script async src="js/modernizr.js"></script>
-  <!-- jQuery -->
-  <script src="js/jquery-2.1.1.js"></script>
-  <!--  plugins -->
-  <script async src="js/bootstrap.min.js"></script>
-  <script async src="js/menu.js"></script>
-  <script async src="js/isotope.pkgd.min.js"></script>
-
 
   <!--  custom script -->
   <script src="js/custom.js"></script>
