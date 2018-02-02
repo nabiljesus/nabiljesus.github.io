@@ -8,11 +8,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Nabil J. Márquez</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- main css -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <!-- preloader css -->
+    <style type="text/css">
+    #preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#f5f5f5;z-index:1000}.pre-container{position:absolute;left:50%;top:50%;bottom:auto;right:auto;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}.spinner{width:40px;height:40px;position:relative;margin:100px auto}.double-bounce1,.double-bounce2{width:100%;height:100%;border-radius:50%;background-color:#70b6ff;opacity:.6;position:absolute;top:0;left:0;-webkit-animation:bounce 2s infinite ease-in-out;animation:bounce 2s infinite ease-in-out}.double-bounce2{-webkit-animation-delay:-1s;animation-delay:-1s}@-webkit-keyframes bounce{0%,100%{-webkit-transform:scale(0)}50%{-webkit-transform:scale(1)}}@keyframes bounce{0%,100%{transform:scale(0);-webkit-transform:scale(0)}50%{transform:scale(1);-webkit-transform:scale(1)}}
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,21 +36,8 @@
   <!-- end Preloader -->
   <div id="navbar"></div>
 
-  <!-- Css Loader -->
-  <noscript id="deferred-styles">
-    <!-- Fonts -->
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="css/devicon.css" rel="stylesheet">
-    <link href="css/devicon.css" rel="stylesheet">
-    <link href="fonts/linea/basic/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/software/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/basice/ICONFONT/styles.css" rel="stylesheet">
-    <link href="fonts/linea/arrows/ICONFONT/styles.css" rel="stylesheet">
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
-</noscript>
-
-<!-- top bar -->
-<div class="top-bar servicesBar">
+  <!-- top bar -->
+  <div class="top-bar servicesBar">
     <h1>&lt; services /&gt;</h1>
     <p><a href="index.html">Home</a> / Services</p>
 </div>
@@ -275,75 +261,27 @@
 <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
 <!-- end back to top -->
 
+<!-- Css Loader -->
+<noscript id="deferred-styles">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/devicon.css" rel="stylesheet">
+    <link href="css/devicon.css" rel="stylesheet">
+    <link href="fonts/linea/basic/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/software/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/basice/ICONFONT/styles.css" rel="stylesheet">
+    <link href="fonts/linea/arrows/ICONFONT/styles.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+</noscript>
+
 
 <!-- modernizr -->
 <script async src="js/modernizr.js"></script>
 <script async src="js/getDescription.js"></script>
-
-<script type="text/javascript">
-
-function showTool(elem){
-    $(".canvasText").fadeOut('fast', function(){
-        document.getElementById('ImgDiv').innerHTML = elem.getElementsByTagName('img')[0].outerHTML ;
-        document.getElementById('TitleDiv').innerHTML = '<h3>'+elem.innerText+'</h3>' ;
-        document.getElementById('TextDiv').innerHTML = getDescription($.trim(elem.innerText));
-        console.log(elem.getElementsByTagName('img')[0].outerHTML );
-        console.log(elem.innerText);
-    }).fadeIn('fast');
-
-    return false;
-}
-</script>
-<!-- jQuery -->
-<script src="js/jquery-2.1.1.js"></script>
-<!--  plugins -->
-<script async src="js/bootstrap.min.js"></script>
-<script async src="js/menu.js"></script>
-<script async src="js/isotope.pkgd.min.js"></script>
-
-
-<!--  custom script -->
-<script defer src="js/custom.js"></script>
-
-
-<!-- tag canvas -->
-<script src="js/jquery.tagcanvas.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    defineCanvas();
-    window.onresize = defineCanvas;
-
-    function defineCanvas() {
-        var canvas = document.getElementById("myCanvas");
-        var width = $('#myCanvasContainer').width(); 
-        var height = $(window).height(); 
-        canvas.width =width;
-        canvas.height = canvas.width;
-        $("#myCanvas").tagcanvas("delete");
-        if( ! $('#myCanvas').tagcanvas({
-            dragControl: true,
-            textColour : '#999',
-            outlineThickness : 1,
-            maxSpeed : 0.03,
-            imageMode: 'both',
-            imagePosition: 'top',
-            fadeIn: 1,
-            imagePadding: 1,
-            initial: [0.3,-0.3],
-            outlineColour: 'transparent',
-            depth : 0.80    ,
-            zoomMin: 0.85,   
-            zoomMax: 1.10,
-            wheelZoom: false,
-            centreImage: 'img/fav.png'
-        })) {
-           $('#myCanvasContainer').hide();
-       }
-   }
-});
-
-</script>
 <!-- deferred-styles load -->
 <script>
 var loadDeferredStyles = function() {
@@ -357,6 +295,35 @@ var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
 else window.addEventListener('load', loadDeferredStyles);
+</script>
+<script type="text/javascript">
+function showTool(elem){
+    $(".canvasText").fadeOut('fast', function(){
+        document.getElementById('ImgDiv').innerHTML = elem.getElementsByTagName('img')[0].outerHTML ;
+        document.getElementById('TitleDiv').innerHTML = '<h3>'+elem.innerText+'</h3>' ;
+        document.getElementById('TextDiv').innerHTML = getDescription($.trim(elem.innerText));
+        console.log(elem.getElementsByTagName('img')[0].outerHTML );
+        console.log(elem.innerText);
+    }).fadeIn('fast');
+
+    return false;
+}
+</script>
+<!-- jQuery -->
+<script defer src="js/jquery-2.1.1.js"></script>
+<!--  plugins -->
+<script defer src="js/bootstrap.min.js"></script>
+<script defer src="js/menu.js"></script>
+<script defer src="js/isotope.pkgd.min.js"></script>
+<!--  custom script -->
+<script defer src="js/custom.js"></script>
+<!-- tag canvas -->
+<script defer src="js/jquery.tagcanvas.js" type="text/javascript"></script>
+<script defer src="js/definecanvas.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+
 </script>
 
 </body>

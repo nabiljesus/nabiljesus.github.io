@@ -197,71 +197,20 @@ else window.addEventListener('load', loadDeferredStyles);
 <!-- modernizr -->
 <script async src="js/modernizr.js"></script>
 <!-- jQuery -->
-<script src="js/jquery-2.1.1.js"></script>
+<script defer src="js/jquery-2.1.1.js"></script>
 <!--  plugins -->
-<script async src="js/bootstrap.min.js"></script>
+<script defer src="js/bootstrap.min.js"></script>
 
-<script async src="js/menu.js"></script>
-<script async src="js/isotope.pkgd.min.js"></script>
+<script defer src="js/menu.js"></script>
+<script defer src="js/isotope.pkgd.min.js"></script>
 
 <script defer src="js/jquery.fittext.js"></script>
 <script defer src="js/jquery.lettering.js"></script>
-<script src="js/jquery.textillate.js"></script>
+<script defer src="js/jquery.textillate.js"></script>
 
 <!--  custom script -->
 <script defer src="js/custom.js"></script>
-
-<script defer type="text/javascript">
-$('.tlt').textillate({
-  autoStart: true,
-  loop: true,
-  minDisplayTime: 1000,
-  // custom set of 'in' effects. This effects whether or not the
-  // character is shown/hidden before or after an animation
-  inEffects: ['flipInY'],
-
-  // custom set of 'out' effects
-  outEffects: [ 'hinge' ],
-
-  // in animation settings
-  in: {
-    // set the effect name
-    effect: 'flipInY',
-
-    // set the delay factor applied to each consecutive character
-    delayScale: 0.5,
-
-    // set the delay between each character
-    delay: 50,
-
-    // set to true to animate all the characters at the same time
-    sync: false,
-
-    // randomize the character sequence
-    // (note that shuffle doesn't make sense with sync = true)
-    shuffle: false,
-
-    // reverse the character sequence
-    // (note that reverse doesn't make sense with sync = true)
-    reverse: false,
-
-    // callback that executes once the animation has finished
-    callback: function () {}
-},
-
-  // out animation settings.
-  out: {
-    effect: 'flipOutY',
-    delayScale: 0.5,
-    delay: 50,
-    sync: false,
-    shuffle: false,
-    reverse: false,
-    callback: function () {}
-},
-type: 'char'
-});
-</script>
+<script defer src="js/anim-header.js"></script>
 
 </body>
 
