@@ -9,7 +9,9 @@
     <title>Nabil J. Márquez</title>
 
     <!-- preloader css -->
-    <link href="css/preloader.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+    #preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#f5f5f5;z-index:1000}.pre-container{position:absolute;left:50%;top:50%;bottom:auto;right:auto;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center}.spinner{width:40px;height:40px;position:relative;margin:100px auto}.double-bounce1,.double-bounce2{width:100%;height:100%;border-radius:50%;background-color:#70b6ff;opacity:.6;position:absolute;top:0;left:0;-webkit-animation:bounce 2s infinite ease-in-out;animation:bounce 2s infinite ease-in-out}.double-bounce2{-webkit-animation-delay:-1s;animation-delay:-1s}@-webkit-keyframes bounce{0%,100%{-webkit-transform:scale(0)}50%{-webkit-transform:scale(1)}}@keyframes bounce{0%,100%{transform:scale(0);-webkit-transform:scale(0)}50%{transform:scale(1);-webkit-transform:scale(1)}}
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,36 +39,37 @@
 
   <!-- Css Loader -->
   <noscript id="deferred-styles">
-      <link href="fonts/googlefonts.css" type="text/css" rel="stylesheet">
-      <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-      <link rel="icon" href="img/fav.png" type="image/x-icon">
-      <!-- Bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <!-- main css -->
-      <link href="css/style.css" rel="stylesheet">
-  </noscript>
+    <link href="fonts/googlefonts.css" type="text/css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+</noscript>
 
-  <!-- box-intro -->
-  <section class="box-intro">
+<!-- box-intro -->
+<section class="box-intro">
     <div class="table-cell">
-        <h1 class="box-headline letters rotate-2">
-            <span class="box-words-wrapper">
-                <b class="is-visible">hello.</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hola!</b>
-                <b>&nbsp;&nbsp;&nbsp;GUTEN TAG!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIAO!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OLÀ!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAMASTE!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SALAAM!</b>
+        <h1 class="tlt box-headline letters rotate-2">
+            <span class="texts box-words-wrapper">
+                <b>hello!</b>
+                <b>hola!</b>
+                <b>GUTEN TAG!</b>
+                <b>CIAO!</b>
+                <b>OLÀ!</b>
+                <b>NAMASTE!</b>
+                <b>SALAAM!</b>
                 <b>KONNICHIWA!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MERHABA!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SZIA!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MARHABA!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SANNU!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HABARI!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NI HAU!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAY HOH!</b>
-                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HALO!</b>
+                <b>MERHABA!</b>
+                <b>SZIA!</b>
+                <b>MARHABA!</b>
+                <b>SANNU!</b>
+                <b>HABARI!</b>
+                <b>NI HAU!</b>
+                <b>NAY HOH!</b>
+                <b>HALO!</b>
             </span>
         </h1>
         <h5>My name is Nabil J. Márquez, and I'm a <i><b>Computer Engineer</b></i>.</h5>
@@ -201,12 +204,66 @@ else window.addEventListener('load', loadDeferredStyles);
 <script async src="js/bootstrap.min.js"></script>
 
 <script async src="js/menu.js"></script>
-<script async src="js/animated-headline.js"></script>
 <script async src="js/isotope.pkgd.min.js"></script>
+
+<script async src="js/jquery.fittext.js"></script>
+<script async src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
 
 <!--  custom script -->
 <script src="js/custom.js"></script>
 
+<script type="text/javascript">
+$('.tlt').textillate({
+  autoStart: true,
+  loop: true,
+  minDisplayTime: 1000,
+  // custom set of 'in' effects. This effects whether or not the
+  // character is shown/hidden before or after an animation
+  inEffects: ['flipInY'],
+
+  // custom set of 'out' effects
+  outEffects: [ 'hinge' ],
+
+  // in animation settings
+  in: {
+    // set the effect name
+    effect: 'flipInY',
+
+    // set the delay factor applied to each consecutive character
+    delayScale: 0.5,
+
+    // set the delay between each character
+    delay: 50,
+
+    // set to true to animate all the characters at the same time
+    sync: false,
+
+    // randomize the character sequence
+    // (note that shuffle doesn't make sense with sync = true)
+    shuffle: false,
+
+    // reverse the character sequence
+    // (note that reverse doesn't make sense with sync = true)
+    reverse: false,
+
+    // callback that executes once the animation has finished
+    callback: function () {}
+},
+
+  // out animation settings.
+  out: {
+    effect: 'flipOutY',
+    delayScale: 0.5,
+    delay: 50,
+    sync: false,
+    shuffle: false,
+    reverse: false,
+    callback: function () {}
+},
+type: 'char'
+});
+</script>
 
 </body>
 

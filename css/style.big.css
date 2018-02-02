@@ -27,7 +27,7 @@
 /* Google fonts & font family
 ==================================================*/
 
-@import url(../fonts/googlefonts.css);
+/*@import url(../fonts/googlefonts.css);*/
 
 /* General
 ==================================================*/
@@ -198,6 +198,8 @@ h5 {
 
 /* headr
 ==================================================*/
+
+.bluechar{color:#70b6ff !important;}
 
 .box-header {
     position: absolute;
@@ -476,7 +478,7 @@ em.personal, a.personal.active {
     text-transform: uppercase
 }
 
-b i:last-child {
+.tlt > span > span:last-child > span:last-child {
     color: #70b6ff !important;
 }
 
