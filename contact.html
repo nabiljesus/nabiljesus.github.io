@@ -126,8 +126,8 @@
       <!-- toaster css -->
       <link href="css/toastr.min.css" rel="stylesheet">
     </noscript>
-    
-    <script async>
+
+    <script defer>
     var loadDeferredStyles = function() {
       var addStylesNode = document.getElementById("deferred-styles");
       var replacement = document.createElement("div");
@@ -141,9 +141,9 @@
     else window.addEventListener('load', loadDeferredStyles);
     </script>
     <!--  custom script -->
-    <script src="js/custom.js"></script>
+    <script defer src="js/custom.js"></script>
     <!--  Toastr -->
-    <script async src="js/toastr.min.js"></script>
+    <script defer src="js/toastr.min.js"></script>
 
   </body>
 
