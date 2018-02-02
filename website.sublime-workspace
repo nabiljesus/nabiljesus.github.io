@@ -108,20 +108,10 @@
 	"buffers":
 	[
 		{
-			"file": "project-details.html",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 4974,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "about.html",
-			"settings":
-			{
-				"buffer_size": 4525,
-				"encoding": "UTF-8",
+				"buffer_size": 22643,
 				"line_ending": "Unix"
 			}
 		},
@@ -129,27 +119,34 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7394,
+				"buffer_size": 8226,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSass\n----\n\n  Here is an announcement about the \"Syntax Highlighting for Sass\"\n  package taking over the name of the \"Sass\" package. \"Syntax\n  Highlighting for Sass\" will be/have been removed from package\n  control, and I will keep maintaining the new \"Sass\" package.\n  \n  For the original \"Sass\" package users, please note that the new\n  package doesn't provide any CSS code snippets, you may need to\n  install Emmet (https://packagecontrol.io/packages/Emmet) for CSS\n  snippets. You could find more details about this package on:\n  https://github.com/P233/Syntax-highlighting-for-Sass\n  \n  For the original \"Syntax Highlighting for Sass\" users, the moving\n  over process will be executed automatically, but for future manual\n  installation, please search the name \"Sass\".\n  \n  If you have any further questions or suggestions, please feel free\n  to create an issue on GitHub.\n  \n  https://github.com/P233/Syntax-highlighting-for-Sass/issues\n  \n  Cheers,\n  Peiwen Lu\n",
+			"file": "project-details.html",
 			"settings":
 			{
-				"buffer_size": 1018,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 4171,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects/data/apmwsc/script.js",
+			"settings":
+			{
+				"buffer_size": 3114,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 16090,
+				"buffer_size": 16691,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -158,18 +155,18 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 6077,
+				"buffer_size": 6050,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "mapeo dict master\nmapa filtros y pin de ubicación\nvista inicial mis cuentas asoiciadas despues del login\nNueva Vista de configuración\nCablear el servicio de pago\nVista de mas\nCamibar imagen del menu\nOcultar logo de arriba en tabs del perfil\nColor 50 50 perfil tabs\nTabs en la vista de login\nlink de livechat es otro\nRotacion banner cada 5 segundos\nBOton de Back no exit\nBotones gorditos\nNueva vista de login\nOtras correciones visuales por pasar",
+			"contents": "Tabla de pruebas\nmapeo dict master\nmapa filtros y pin de ubicación\nvista inicial mis cuentas asoiciadas despues del login\nNueva Vista de configuración\nLink administrar mis cuentas que mande a configuracion \nCablear el servicio de pago\nRedondeo de kb a 1024\nSimetria de botones en home\nVista de mas\nCamibar imagen del menu\nOcultar logo de arriba en tabs del perfil\nColor 50 50 perfil tabs\nTabs en la vista de login\nlink de livechat es otro https://chatonline.cwpanama.com/livechat/index.php?p=start&lang=es&slide=0\nRotacion banner cada 5 segundos\nBOton de Back no exit\nBotones gorditos\nNueva vista de login\nOtras correciones visuales por pasar (LOs miscelaneos)",
 			"settings":
 			{
-				"buffer_size": 444,
+				"buffer_size": 660,
 				"line_ending": "Unix",
-				"name": "mapeo dict master"
+				"name": "Tabla de pruebas"
 			}
 		}
 	],
@@ -211,6 +208,7 @@
 	"expanded_folders":
 	[
 		"/home/nabil/projects/nabiljesus.github.io",
+		"/home/nabil/projects/nabiljesus.github.io/css",
 		"/home/nabil/projects/nabiljesus.github.io/fonts",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/arrows",
@@ -223,20 +221,28 @@
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/music",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/software",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/weather",
+		"/home/nabil/projects/nabiljesus.github.io/js",
 		"/home/nabil/projects/nabiljesus.github.io/projects",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/spaceinvaders"
 	],
 	"file_history":
 	[
-		"/home/nabil/Supergirl.S03E12.HDTV.x264-KILLERS[ettv]/Supergirl - 03x12 - For Good (HI).srt",
+		"/home/nabil/projects/nabiljesus.github.io/about.html",
+		"/home/nabil/projects/nabiljesus.github.io/projects.html",
+		"/home/nabil/projects/nabiljesus.github.io/index2.html",
+		"/home/nabil/projects/nabiljesus.github.io/index.html",
+		"/home/nabil/projects/nabiljesus.github.io/contact.html",
+		"/home/nabil/projects/nabiljesus.github.io/project-details.html",
+		"/home/nabil/projects/nabiljesus.github.io/services.html",
 		"/home/nabil/projects/nabiljesus.github.io/css/style.css",
+		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
+		"/home/nabil/projects/nabiljesus.github.io/js/menu.js",
+		"/home/nabil/Supergirl.S03E12.HDTV.x264-KILLERS[ettv]/Supergirl - 03x12 - For Good (HI).srt",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_music/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/basice/ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/ionicons/css/ionicons.min.css",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/projectFill.js",
-		"/home/nabil/projects/nabiljesus.github.io/projects.html",
-		"/home/nabil/projects/nabiljesus.github.io/contact.html",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/_ICONFONT/styles.css",
 		"/home/nabil/projects/nabiljesus.github.io/fonts/linea/_arrows/hola.css",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/freelancer/script.js",
@@ -255,12 +261,7 @@
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/space/script.js",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/script-model.js",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/model/script.js",
-		"/home/nabil/projects/nabiljesus.github.io/index.html",
-		"/home/nabil/projects/nabiljesus.github.io/index2.html",
-		"/home/nabil/projects/nabiljesus.github.io/js/custom.js",
 		"/home/nabil/projects/nabiljesus.github.io/js/demo/demo.js",
-		"/home/nabil/projects/nabiljesus.github.io/services.html",
-		"/home/nabil/projects/nabiljesus.github.io/about.html",
 		"/home/nabil/projects/nabiljesus.github.io/single-project.html",
 		"/home/nabil/projects/nabiljesus.github.io/js/blueimp-gallery.js",
 		"/home/nabil/projects/nabiljesus.github.io/projects/data/projects.js",
@@ -281,7 +282,6 @@
 		"/home/nabil/projects/nabiljesus.github.io/js/jquery.tagcanvas.js",
 		"/home/nabil/projects/nabiljesus.github.io/js/tagcanvas.js",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.css",
-		"/home/nabil/projects/nabiljesus.github.io/js/menu.js",
 		"/home/nabil/projects/nabiljesus.github.io/loader.html",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.json",
 		"/home/nabil/projects/nabiljesus.github.io/css/devicon.min.css",
@@ -355,8 +355,7 @@
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/css/site.min.css",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/apps/message.css",
 		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/apps/message.min.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.css",
-		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.min.css"
+		"/home/nabil/work/darient/darienconnect/static/remark/assets/examples/css/dashboard/analytics.css"
 	],
 	"find":
 	{
@@ -375,6 +374,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"max-width: 500px",
+			"href:",
+			"href",
+			"jquer",
+			"<script src=\"js/jquery-2.1.1.js\"></script>",
+			"<script async src=\"js/jquery-2.1.1.js\"></script>",
+			"<script src=\"js/jquery-2.1.1.js\"></script>",
+			"<script async src=\"js/jquery-2.1.1.js\"></script>",
+			"async",
+			"<script async src=\"js/custom.js\"></script>",
+			"script src",
+			".js",
+			"w3",
+			"clearfix",
+			"portfolio_item",
+			"portfolio_item_hover",
+			"img-responsive",
+			"responsive",
 			"googlea",
 			"google",
 			"_",
@@ -475,6 +492,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<script src=\"js/jquery-2.1.1.js\"></script>",
+			"<script src=\"js/custom.js\"></script>",
+			"script async src",
 			"",
 			"./fonts/",
 			"project-details",
@@ -509,110 +529,71 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "project-details.html",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4974,
+						"buffer_size": 22643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1643,
-								1643
+								22643,
+								22643
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 3,
-								"count": 240,
-								"modified": false,
-								"selection": false,
+								"changes": 3844,
+								"count": 2885,
+								"modified": true,
+								"selection": true,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 448.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4525,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								352,
-								352
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 3,
-								"count": 362,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7394,
+						"buffer_size": 8226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6314,
-								6314
+								8208,
+								7601
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 251,
+								"changes": 2,
+								"count": 295,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -623,51 +604,122 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1680.0,
+						"translation.y": 2424.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
+					"file": "project-details.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1018,
+						"buffer_size": 4171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1018,
-								1018
+								4171,
+								4171
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 1018,
-								"count": 129,
-								"modified": true,
+								"changes": 345,
+								"count": 76,
+								"modified": false,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"tab_width": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects/data/apmwsc/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1797,
+								1797
+							],
+							[
+								1930,
+								1930
+							],
+							[
+								2063,
+								2063
+							],
+							[
+								2196,
+								2196
+							],
+							[
+								2329,
+								2329
+							],
+							[
+								2462,
+								2462
+							],
+							[
+								2598,
+								2598
+							],
+							[
+								2729,
+								2729
+							],
+							[
+								2887,
+								2887
+							],
+							[
+								3036,
+								3036
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -676,23 +728,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16090,
+						"buffer_size": 16691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2657,
-								2657
+								14986,
+								14986
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 75,
-								"count": 609,
+								"changes": 8,
+								"count": 642,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -703,10 +755,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 3738.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -715,23 +767,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6077,
+						"buffer_size": 6050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2347,
-								2347
+								6049,
+								6049
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 2975,
-								"count": 287,
+								"changes": 2,
+								"count": 298,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -742,10 +794,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
+						"translation.y": 2310.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -753,36 +805,36 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 444,
+						"buffer_size": 660,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								444,
-								444
+								660,
+								660
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 447,
-								"count": 75,
-								"modified": false,
+								"changes": 164,
+								"count": 97,
+								"modified": true,
 								"selection": false,
 								"status": -1,
 								"syntax": "plain text"
 							},
-							"auto_name": "mapeo dict master",
+							"auto_name": "Tabla de pruebas",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1158,16 +1210,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "cw",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"cw",
+				"",
 				"~/darient/cw_app/cw_app.sublime-project"
 			],
 			[
-				"",
-				"~/darient/miclave_app/miclave_app.sublime-project"
+				"cw",
+				"~/darient/cw_app/cw_app.sublime-project"
 			],
 			[
 				"mic",

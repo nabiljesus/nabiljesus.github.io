@@ -43,6 +43,7 @@
 
     <!-- Css Loader -->
     <noscript id="deferred-styles">
+      <link href="fonts/googlefonts.css" type="text/css" rel="stylesheet">
       <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
       <link rel="icon" href="img/fav.png" type="image/x-icon">
 
@@ -128,47 +129,10 @@
     <script async src="js/menu.js"></script>
     <script async src="js/isotope.pkgd.min.js"></script>
 
-    <!--  Toastr -->
-    <script async src="js/toastr.min.js"></script>
-
     <!--  custom script -->
     <script src="js/custom.js"></script>
-
-
-    <!-- Form Submition -->
-    <script type="text/javascript">
-    toastr.options.showMethod = 'slideDown';
-    toastr.options.hideMethod = 'slideUp';
-    toastr.options.closeMethod = 'slideUp';
-    toastr.options.preventDuplicates = true;
-    toastr.options.progressBar = true;
-    toastr.options.positionClass = 'toast-bottom-right';
-
-    jQuery.fn.preventDoubleSubmission = function() {
-      $(this).on('submit',function(e){
-        var $form = $(this);
-
-            if ($form.data('submitted') === true) { // Previously submitted - don't submit again
-              e.preventDefault();
-          } else { // Mark it so that the next submit can be ignored
-            $form.data('submitted', true);
-            $form.submit();
-            $form[0].reset();
-            $form.data('submitted', false);
-            toastr.success('Form submitted!', 'I\'ll get back to you as soon as possible');
-            e.preventDefault();
-
-          }
-        });
-
-      // Keep chainability
-      return false;
-    };
-
-    $('form').preventDoubleSubmission();
-
-    </script>
-
+    <!--  Toastr -->
+    <script async src="js/toastr.min.js"></script>
     <!-- deferred-styles load -->
     <script>
     var loadDeferredStyles = function() {

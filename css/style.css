@@ -1,4 +1,4 @@
-@import url(../fonts/googlefonts.css);html,
+html,
 body{height:100%;font-family:'Poppins', sans-serif;line-height:1.8;color:#999}
 .actual{text-decoration:underline !important;text-decoration-color:#0e84ff !important;text-underline-position:under;}
 .no-padding{padding-left:0;padding-right:0;}
